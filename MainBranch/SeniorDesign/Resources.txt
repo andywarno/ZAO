@@ -1,0 +1,6 @@
+http://dev.mysql.com/doc/refman/5.0/en/getting-information.html
+http://homepages.wmich.edu/~kaminski/3310/A6Specs.pdf
+http://homepages.wmich.edu/~kaminski/3310/readings/CreateWorldDB.sql
+http://dev.mysql.com/doc/refman/4.1/en/connector-net-tutorials-mysqlscript.html
+http://stackoverflow.com/questions/9024349/run-script-that-creates-database-tables
+http://www.lemoda.net/windows/windows2unix/windows2unix.html

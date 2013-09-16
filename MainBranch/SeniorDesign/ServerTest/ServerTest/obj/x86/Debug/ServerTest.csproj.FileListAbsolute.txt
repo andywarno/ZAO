@@ -1,0 +1,12 @@
+C:\Users\dave\Documents\Visual Studio 2010\Projects\ServerTest\ServerTest\bin\Debug\ServerTest.exe
+C:\Users\dave\Documents\Visual Studio 2010\Projects\ServerTest\ServerTest\bin\Debug\ServerTest.pdb
+C:\Users\dave\Documents\Visual Studio 2010\Projects\ServerTest\ServerTest\obj\x86\Debug\ServerTest.csprojResolveAssemblyReference.cache
+C:\Users\dave\Documents\Visual Studio 2010\Projects\ServerTest\ServerTest\obj\x86\Debug\ServerTest.exe
+C:\Users\dave\Documents\Visual Studio 2010\Projects\ServerTest\ServerTest\obj\x86\Debug\ServerTest.pdb
+C:\Users\dave\Desktop\SeniorDesign\ServerTest\ServerTest\obj\x86\Debug\ServerTest.exe
+C:\Users\dave\Desktop\SeniorDesign\ServerTest\ServerTest\obj\x86\Debug\ServerTest.pdb
+C:\Users\dave\Desktop\SeniorDesign\ServerTest\ServerTest\bin\Debug\ServerTest.exe
+C:\Users\dave\Desktop\SeniorDesign\ServerTest\ServerTest\bin\Debug\ServerTest.pdb
+C:\Users\dave\Desktop\SeniorDesign\ServerTest\ServerTest\obj\x86\Debug\ServerTest.csprojResolveAssemblyReference.cache
+C:\Users\dave\Documents\Visual Studio 2010\Projects\SeniorDesign\ServerTest\ServerTest\obj\x86\Debug\ServerTest.exe
+C:\Users\dave\Documents\Visual Studio 2010\Projects\SeniorDesign\ServerTest\ServerTest\obj\x86\Debug\ServerTest.pdb
