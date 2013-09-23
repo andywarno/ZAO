@@ -17,3 +17,5 @@ C:\Users\BOSS\Desktop\SeniorDesign-2013-09-16\SeniorDesign\SeniorDesign\obj\x86\
 C:\Users\BOSS\Desktop\SeniorDesign-2013-09-16\SeniorDesign\SeniorDesign\bin\Debug\SeniorDesign.exe
 C:\Users\BOSS\Desktop\SeniorDesign-2013-09-16\SeniorDesign\SeniorDesign\bin\Debug\SeniorDesign.pdb
 C:\Users\BOSS\Desktop\SeniorDesign-2013-09-16\SeniorDesign\SeniorDesign\bin\Debug\MySql.Data.dll
+C:\Users\obeezy\Desktop\CS 4900 Senior Design\ZAO\MainBranch\SeniorDesign\SeniorDesign\obj\x86\Debug\SeniorDesign.exe
+C:\Users\obeezy\Desktop\CS 4900 Senior Design\ZAO\MainBranch\SeniorDesign\SeniorDesign\obj\x86\Debug\SeniorDesign.pdb
