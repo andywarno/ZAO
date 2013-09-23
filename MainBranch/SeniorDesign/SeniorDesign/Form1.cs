@@ -33,5 +33,10 @@ namespace SeniorDesign
             else
                 MessageBox.Show("Access Denied: Invalid Username/Password");
         }
+
+        private void TitleLabel_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
