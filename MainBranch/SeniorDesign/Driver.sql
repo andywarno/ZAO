@@ -2,6 +2,6 @@
 # WorldDriver.sql   (a script file)
 ##############################################################################
 
-source C:\Users\BOSS\Desktop\SeniorDesign-2013-09-16\SeniorDesign\tableScript.sql
+source C:\Users\dave\Desktop\SeniorDesign\tableScript.sql
 
-source C:\Users\BOSS\Desktop\SeniorDesign-2013-09-16\SeniorDesign\InsertValues.sql
+source C:\Users\dave\Desktop\SeniorDesign\InsertValues.sql

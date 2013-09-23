@@ -7,15 +7,18 @@ C:\Users\dave\Documents\Visual Studio 2010\Projects\SeniorDesign\SeniorDesign\bi
 C:\Users\dave\Documents\Visual Studio 2010\Projects\SeniorDesign\SeniorDesign\bin\Debug\SeniorDesign.pdb
 C:\Users\dave\Documents\Visual Studio 2010\Projects\SeniorDesign\SeniorDesign\obj\x86\Debug\SeniorDesign.exe
 C:\Users\dave\Documents\Visual Studio 2010\Projects\SeniorDesign\SeniorDesign\obj\x86\Debug\SeniorDesign.pdb
-C:\Users\BOSS\Desktop\SeniorDesign-2013-09-16\SeniorDesign\SeniorDesign\obj\x86\Debug\SeniorDesign.exe
-C:\Users\BOSS\Desktop\SeniorDesign-2013-09-16\SeniorDesign\SeniorDesign\obj\x86\Debug\SeniorDesign.pdb
-C:\Users\BOSS\Desktop\SeniorDesign-2013-09-16\SeniorDesign\SeniorDesign\obj\x86\Debug\SeniorDesign.csprojResolveAssemblyReference.cache
-C:\Users\BOSS\Desktop\SeniorDesign-2013-09-16\SeniorDesign\SeniorDesign\obj\x86\Debug\SeniorDesign.formLogin.resources
-C:\Users\BOSS\Desktop\SeniorDesign-2013-09-16\SeniorDesign\SeniorDesign\obj\x86\Debug\SeniorDesign.MainView.resources
-C:\Users\BOSS\Desktop\SeniorDesign-2013-09-16\SeniorDesign\SeniorDesign\obj\x86\Debug\SeniorDesign.Properties.Resources.resources
-C:\Users\BOSS\Desktop\SeniorDesign-2013-09-16\SeniorDesign\SeniorDesign\obj\x86\Debug\SeniorDesign.csproj.GenerateResource.Cache
-C:\Users\BOSS\Desktop\SeniorDesign-2013-09-16\SeniorDesign\SeniorDesign\bin\Debug\SeniorDesign.exe
-C:\Users\BOSS\Desktop\SeniorDesign-2013-09-16\SeniorDesign\SeniorDesign\bin\Debug\SeniorDesign.pdb
-C:\Users\BOSS\Desktop\SeniorDesign-2013-09-16\SeniorDesign\SeniorDesign\bin\Debug\MySql.Data.dll
+C:\Users\obeezy\Desktop\Senior Design Forms App\SeniorDesign\SeniorDesign\obj\x86\Debug\SeniorDesign.exe
+C:\Users\obeezy\Desktop\Senior Design Forms App\SeniorDesign\SeniorDesign\obj\x86\Debug\SeniorDesign.pdb
+C:\Users\obeezy\Desktop\Senior Design Forms App\SeniorDesign\SeniorDesign\obj\x86\Debug\SeniorDesign.csprojResolveAssemblyReference.cache
+C:\Users\obeezy\Desktop\Senior Design Forms App\SeniorDesign\SeniorDesign\obj\x86\Debug\SeniorDesign.formLogin.resources
+C:\Users\obeezy\Desktop\Senior Design Forms App\SeniorDesign\SeniorDesign\obj\x86\Debug\SeniorDesign.MainView.resources
+C:\Users\obeezy\Desktop\Senior Design Forms App\SeniorDesign\SeniorDesign\obj\x86\Debug\SeniorDesign.Properties.Resources.resources
+C:\Users\obeezy\Desktop\Senior Design Forms App\SeniorDesign\SeniorDesign\obj\x86\Debug\SeniorDesign.csproj.GenerateResource.Cache
+C:\Users\obeezy\Desktop\Senior Design Forms App\SeniorDesign\SeniorDesign\bin\Debug\SeniorDesign.exe
+C:\Users\obeezy\Desktop\Senior Design Forms App\SeniorDesign\SeniorDesign\bin\Debug\SeniorDesign.pdb
+C:\Users\obeezy\Desktop\Senior Design Forms App\SeniorDesign\SeniorDesign\bin\Debug\MySql.Data.dll
+C:\Users\obeezy\Desktop\Senior Design Forms App\SeniorDesign\SeniorDesign\obj\x86\Debug\SeniorDesign.CrimeSheet.resources
+C:\Users\obeezy\Desktop\SeniorDesign\SeniorDesign\obj\x86\Debug\SeniorDesign.exe
+C:\Users\obeezy\Desktop\SeniorDesign\SeniorDesign\obj\x86\Debug\SeniorDesign.pdb
 C:\Users\obeezy\Desktop\CS 4900 Senior Design\ZAO\MainBranch\SeniorDesign\SeniorDesign\obj\x86\Debug\SeniorDesign.exe
 C:\Users\obeezy\Desktop\CS 4900 Senior Design\ZAO\MainBranch\SeniorDesign\SeniorDesign\obj\x86\Debug\SeniorDesign.pdb

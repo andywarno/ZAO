@@ -47,6 +47,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CrimeSheet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CrimeSheet.Designer.cs">
+      <DependentUpon>CrimeSheet.cs</DependentUpon>
+    </Compile>
     <Compile Include="DataRetrieval.cs" />
     <Compile Include="DBConnection.cs" />
     <Compile Include="Form1.cs">
@@ -64,6 +70,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="CrimeSheet.resx">
+      <DependentUpon>CrimeSheet.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
