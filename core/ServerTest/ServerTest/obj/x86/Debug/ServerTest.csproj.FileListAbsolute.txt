@@ -14,3 +14,9 @@ C:\Users\BOSS\Documents\School\CS4900_SeniorDesign\ZAO\core\ServerTest\ServerTes
 C:\Users\BOSS\Documents\School\CS4900_SeniorDesign\ZAO\core\ServerTest\ServerTest\bin\Debug\ServerTest.exe
 C:\Users\BOSS\Documents\School\CS4900_SeniorDesign\ZAO\core\ServerTest\ServerTest\bin\Debug\ServerTest.pdb
 C:\Users\BOSS\Documents\School\CS4900_SeniorDesign\ZAO\core\ServerTest\ServerTest\bin\Debug\MySql.Data.dll
+C:\Users\obeezy\Desktop\CS 4900 Senior Design\ZAO\core\ServerTest\ServerTest\obj\x86\Debug\ServerTest.exe
+C:\Users\obeezy\Desktop\CS 4900 Senior Design\ZAO\core\ServerTest\ServerTest\obj\x86\Debug\ServerTest.pdb
+C:\Users\obeezy\Desktop\CS 4900 Senior Design\ZAO\core\ServerTest\ServerTest\bin\Debug\ServerTest.exe
+C:\Users\obeezy\Desktop\CS 4900 Senior Design\ZAO\core\ServerTest\ServerTest\bin\Debug\ServerTest.pdb
+C:\Users\obeezy\Desktop\CS 4900 Senior Design\ZAO\core\ServerTest\ServerTest\bin\Debug\MySql.Data.dll
+C:\Users\obeezy\Desktop\CS 4900 Senior Design\ZAO\core\ServerTest\ServerTest\obj\x86\Debug\ServerTest.csprojResolveAssemblyReference.cache

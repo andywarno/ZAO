@@ -22,3 +22,13 @@ C:\Users\obeezy\Desktop\SeniorDesign\SeniorDesign\obj\x86\Debug\SeniorDesign.exe
 C:\Users\obeezy\Desktop\SeniorDesign\SeniorDesign\obj\x86\Debug\SeniorDesign.pdb
 C:\Users\obeezy\Desktop\CS 4900 Senior Design\ZAO\MainBranch\SeniorDesign\SeniorDesign\obj\x86\Debug\SeniorDesign.exe
 C:\Users\obeezy\Desktop\CS 4900 Senior Design\ZAO\MainBranch\SeniorDesign\SeniorDesign\obj\x86\Debug\SeniorDesign.pdb
+C:\Users\obeezy\Desktop\CS 4900 Senior Design\ZAO\MainBranch\SeniorDesign\SeniorDesign\obj\x86\Debug\SeniorDesign.csprojResolveAssemblyReference.cache
+C:\Users\obeezy\Desktop\CS 4900 Senior Design\ZAO\MainBranch\SeniorDesign\SeniorDesign\obj\x86\Debug\SeniorDesign.CrimeSheet.resources
+C:\Users\obeezy\Desktop\CS 4900 Senior Design\ZAO\MainBranch\SeniorDesign\SeniorDesign\obj\x86\Debug\SeniorDesign.formLogin.resources
+C:\Users\obeezy\Desktop\CS 4900 Senior Design\ZAO\MainBranch\SeniorDesign\SeniorDesign\obj\x86\Debug\SeniorDesign.MainView.resources
+C:\Users\obeezy\Desktop\CS 4900 Senior Design\ZAO\MainBranch\SeniorDesign\SeniorDesign\obj\x86\Debug\SeniorDesign.Properties.Resources.resources
+C:\Users\obeezy\Desktop\CS 4900 Senior Design\ZAO\MainBranch\SeniorDesign\SeniorDesign\obj\x86\Debug\SeniorDesign.csproj.GenerateResource.Cache
+C:\Users\obeezy\Desktop\CS 4900 Senior Design\ZAO\MainBranch\SeniorDesign\SeniorDesign\bin\Debug\SeniorDesign.exe
+C:\Users\obeezy\Desktop\CS 4900 Senior Design\ZAO\MainBranch\SeniorDesign\SeniorDesign\bin\Debug\SeniorDesign.pdb
+C:\Users\obeezy\Desktop\CS 4900 Senior Design\ZAO\MainBranch\SeniorDesign\SeniorDesign\bin\Debug\MySql.Data.dll
+C:\Users\obeezy\Desktop\CS 4900 Senior Design\ZAO\MainBranch\SeniorDesign\SeniorDesign\obj\x86\Debug\SeniorDesign.SelectionMenu.resources
