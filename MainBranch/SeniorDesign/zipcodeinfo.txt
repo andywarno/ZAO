@@ -1,0 +1,1169 @@
+48001,Algonac,Saint Clair,13226,Michigan
+48002,Allenton,Saint Clair,3162,Michigan
+48003,Almont,Lapeer,5586,Michigan
+48004,Anchorville,Saint Clair,0,Michigan
+48005,Armada,Macomb,5252,Michigan
+48006,Avoca,Saint Clair,3791,Michigan
+48007,Troy,Oakland,0,Michigan
+48009,Birmingham,Oakland,19239,Michigan
+48012,Birmingham,Oakland,0,Michigan
+48014,Capac,Saint Clair,3786,Michigan
+48015,Center Line,Macomb,8789,Michigan
+48017,Clawson,Oakland,12906,Michigan
+48021,Eastpointe,Macomb,33405,Michigan
+48022,Emmett,Saint Clair,2468,Michigan
+48023,Fair Haven,Saint Clair,6984,Michigan
+48025,Franklin,Oakland,14360,Michigan
+48026,Fraser,Macomb,15297,Michigan
+48027,Goodells,Saint Clair,2986,Michigan
+48028,Harsens Island,Saint Clair,1285,Michigan
+48030,Hazel Park,Oakland,18854,Michigan
+48032,Jeddo,Saint Clair,2070,Michigan
+48034,Southfield,Oakland,31699,Michigan
+48035,Clinton Township,Macomb,34456,Michigan
+48036,Clinton Township,Macomb,22346,Michigan
+48037,Southfield,Oakland,0,Michigan
+48038,Clinton Township,Macomb,39662,Michigan
+48039,Marine City,Saint Clair,8232,Michigan
+48040,Marysville,Saint Clair,9684,Michigan
+48041,Memphis,Saint Clair,4330,Michigan
+48042,Macomb,Macomb,15990,Michigan
+48043,Mount Clemens,Macomb,17739,Michigan
+48044,Macomb,Macomb,34464,Michigan
+48045,Harrison Township,Macomb,23882,Michigan
+48046,Mount Clemens,Macomb,0,Michigan
+48047,New Baltimore,Macomb,31215,Michigan
+48048,New Haven,Macomb,6661,Michigan
+48049,North Street,Saint Clair,5765,Michigan
+48050,New Haven,Macomb,1456,Michigan
+48051,New Baltimore,Macomb,13576,Michigan
+48054,East China,Saint Clair,7059,Michigan
+48059,Fort Gratiot,Saint Clair,14772,Michigan
+48060,Port Huron,Saint Clair,40586,Michigan
+48061,Port Huron,Saint Clair,0,Michigan
+48062,Richmond,Macomb,8354,Michigan
+48063,Columbus,Saint Clair,4615,Michigan
+48064,Casco,Saint Clair,4684,Michigan
+48065,Romeo,Macomb,10015,Michigan
+48066,Roseville,Macomb,48976,Michigan
+48067,Royal Oak,Oakland,25215,Michigan
+48068,Royal Oak,Oakland,0,Michigan
+48069,Pleasant Ridge,Oakland,2384,Michigan
+48070,Huntington Woods,Oakland,6150,Michigan
+48071,Madison Heights,Oakland,31101,Michigan
+48072,Berkley,Oakland,15529,Michigan
+48073,Royal Oak,Oakland,34713,Michigan
+48074,Smiths Creek,Saint Clair,8623,Michigan
+48075,Southfield,Oakland,22598,Michigan
+48076,Southfield,Oakland,28295,Michigan
+48079,Saint Clair,Saint Clair,12340,Michigan
+48080,Saint Clair,Michigan Macomb,23504,Michigan
+48081,Saint Clair,Michigan Macomb,22323,Michigan
+48082,Saint Clair,Michigan Macomb,16613,Michigan
+48083,Troy,Oakland,22260,Michigan
+48084,Troy,Oakland,13728,Michigan
+48086,Southfield,Oakland,0,Michigan
+48089,Warren,Macomb,34268,Michigan
+48090,Warren,Macomb,0,Michigan
+48091,Warren,Macomb,31985,Michigan
+48092,Warren,Macomb,25345,Michigan
+48093,Warren,Macomb,46554,Michigan
+48094,Washington,Macomb,13169,Michigan
+48095,Washington,Macomb,3865,Michigan
+48096,Ray,Macomb,3904,Michigan
+48097,Yale,Saint Clair,5418,Michigan
+48098,Troy,Oakland,44978,Michigan
+48099,Troy,Oakland,0,Michigan
+48101,Allen Park,Wayne,29587,Michigan
+48103,Ann Arbor,Washtenaw,49086,Michigan
+48104,Ann Arbor,Washtenaw,42557,Michigan
+48105,Ann Arbor,Washtenaw,33095,Michigan
+48106,Ann Arbor,Washtenaw,0,Michigan
+48107,Ann Arbor,Washtenaw,0,Michigan
+48108,Ann Arbor,Washtenaw,23041,Michigan
+48109,Ann Arbor,Washtenaw,4152,Michigan
+48110,Azalia,Monroe,0,Michigan
+48111,Belleville,Wayne,39076,Michigan
+48112,Belleville,Wayne,0,Michigan
+48113,Ann Arbor,Washtenaw,0,Michigan
+48114,Brighton,Livingston,19286,Michigan
+48115,Bridgewater,Washtenaw,0,Michigan
+48116,Brighton,Livingston,24653,Michigan
+48117,Carleton,Monroe,10056,Michigan
+48118,Chelsea,Washtenaw,11739,Michigan
+48120,Dearborn,Wayne,7480,Michigan
+48121,Dearborn,Wayne,0,Michigan
+48122,Melvindale,Wayne,10755,Michigan
+48123,Dearborn,Wayne,0,Michigan
+48124,Dearborn,Wayne,33257,Michigan
+48125,Dearborn Heights,Wayne,22648,Michigan
+48126,Dearborn,Wayne,46535,Michigan
+48127,Dearborn Heights,Wayne,35600,Michigan
+48128,Dearborn,Wayne,10519,Michigan
+48130,Dexter,Washtenaw,10474,Michigan
+48131,Dundee,Monroe,6289,Michigan
+48133,Erie,Monroe,5355,Michigan
+48134,Flat Rock,Wayne,16391,Michigan
+48135,Garden City,Wayne,29416,Michigan
+48136,Garden City,Wayne,0,Michigan
+48137,Gregory,Livingston,4511,Michigan
+48138,Grosse Ile,Wayne,10894,Michigan
+48139,Hamburg,Livingston,78,Michigan
+48140,Ida,Monroe,3338,Michigan
+48141,Inkster,Wayne,30115,Michigan
+48143,Lakeland,Livingston,39,Michigan
+48144,Lambertville,Monroe,8968,Michigan
+48145,La Salle,Monroe,3517,Michigan
+48146,Lincoln Park,Wayne,39775,Michigan
+48150,Livonia,Wayne,28069,Michigan
+48151,Livonia,Wayne,0,Michigan
+48152,Livonia,Wayne,32142,Michigan
+48153,Livonia,Wayne,0,Michigan
+48154,Livonia,Wayne,40556,Michigan
+48157,Luna Pier,Monroe,1478,Michigan
+48158,Manchester,Washtenaw,7045,Michigan
+48159,Maybee,Monroe,2554,Michigan
+48160,Milan,Monroe,12827,Michigan
+48161,Monroe,Monroe,25412,Michigan
+48162,Monroe,Monroe,29293,Michigan
+48164,New Boston,Wayne,7792,Michigan
+48165,New Hudson,Oakland,5419,Michigan
+48166,Newport,Monroe,10420,Michigan
+48167,Northville,Wayne,36559,Michigan
+48169,Pinckney,Livingston,19840,Michigan
+48170,Plymouth,Wayne,39517,Michigan
+48173,Rockwood,Wayne,10381,Michigan
+48174,Romulus,Wayne,29937,Michigan
+48175,Salem,Washtenaw,0,Michigan
+48176,Saline,Washtenaw,18354,Michigan
+48177,Samaria,Monroe,0,Michigan
+48178,South Lyon,Oakland,23442,Michigan
+48179,South Rockwood,Monroe,2819,Michigan
+48180,Taylor,Wayne,65868,Michigan
+48182,Temperance,Monroe,20824,Michigan
+48183,Trenton,Wayne,40891,Michigan
+48184,Wayne,Wayne,19121,Michigan
+48185,Westland,Wayne,49003,Michigan
+48186,Westland,Wayne,37995,Michigan
+48187,Canton,Wayne,44953,Michigan
+48188,Canton,Wayne,31695,Michigan
+48189,Whitmore Lake,Washtenaw,13782,Michigan
+48190,Whittaker,Washtenaw,106,Michigan
+48191,Willis,Washtenaw,2616,Michigan
+48192,Wyandotte,Wayne,44894,Michigan
+48195,Southgate,Wayne,30136,Michigan
+48197,Ypsilanti,Washtenaw,55520,Michigan
+48198,Ypsilanti,Washtenaw,38746,Michigan
+48201,Detroit,Wayne,15080,Michigan
+48202,Detroit,Wayne,21870,Michigan
+48203,Highland Park,Wayne,45260,Michigan
+48204,Detroit,Wayne,42316,Michigan
+48205,Detroit,Wayne,67012,Michigan
+48206,Detroit,Wayne,32378,Michigan
+48207,Detroit,Wayne,25614,Michigan
+48208,Detroit,Wayne,12867,Michigan
+48209,Detroit,Wayne,38895,Michigan
+48210,Detroit,Wayne,39671,Michigan
+48211,Detroit,Wayne,10886,Michigan
+48212,Hamtramck,Wayne,46136,Michigan
+48213,Detroit,Wayne,43996,Michigan
+48214,Detroit,Wayne,32845,Michigan
+48215,Detroit,Wayne,19224,Michigan
+48216,Detroit,Wayne,6668,Michigan
+48217,Detroit,Wayne,10515,Michigan
+48218,River Rouge,Wayne,10060,Michigan
+48219,Detroit,Wayne,59447,Michigan
+48220,Ferndale,Oakland,25170,Michigan
+48221,Detroit,Wayne,45381,Michigan
+48222,Detroit,Wayne,0,Michigan
+48223,Detroit,Wayne,36073,Michigan
+48224,Detroit,Wayne,55437,Michigan
+48225,Harper Woods,Wayne,14413,Michigan
+48226,Detroit,Wayne,6138,Michigan
+48227,Detroit,Wayne,61118,Michigan
+48228,Detroit,Wayne,65051,Michigan
+48229,Ecorse,Wayne,11088,Michigan
+48230,Grosse Pointe,Wayne,18183,Michigan
+48231,Detroit,Wayne,0,Michigan
+48232,Detroit,Wayne,0,Michigan
+48233,Detroit,Wayne,0,Michigan
+48234,Detroit,Wayne,45797,Michigan
+48235,Detroit,Wayne,53353,Michigan
+48236,Grosse Pointe,Wayne,31366,Michigan
+48237,Oak Park,Oakland,32493,Michigan
+48238,Detroit,Wayne,44909,Michigan
+48239,Redford,Wayne,37608,Michigan
+48240,Redford,Wayne,19151,Michigan
+48242,Detroit,Wayne,0,Michigan
+48243,Detroit,Wayne,0,Michigan
+48244,Detroit,Wayne,0,Michigan
+48254,-,-,0,Michigan
+48255,Detroit,Wayne,0,Michigan
+48258,-,-,0,Michigan
+48260,Detroit,Wayne,0,Michigan
+48264,Detroit,Wayne,0,Michigan
+48265,Detroit,Wayne,0,Michigan
+48266,Detroit,Wayne,0,Michigan
+48267,Detroit,Wayne,0,Michigan
+48268,Detroit,Wayne,0,Michigan
+48269,Detroit,Wayne,0,Michigan
+48272,Detroit,Wayne,0,Michigan
+48274,-,-,0,Michigan
+48275,Detroit,Wayne,0,Michigan
+48277,Detroit,Wayne,0,Michigan
+48278,Detroit,Wayne,0,Michigan
+48279,Detroit,Wayne,0,Michigan
+48288,Detroit,Wayne,0,Michigan
+48295,-,-,0,Michigan
+48297,-,-,0,Michigan
+48299,-,-,0,Michigan
+48301,Bloomfield Hills,Oakland,14697,Michigan
+48302,Bloomfield Hills,Oakland,16409,Michigan
+48303,Bloomfield Hills,Oakland,0,Michigan
+48304,Bloomfield Hills,Oakland,16850,Michigan
+48306,Rochester,Oakland,23441,Michigan
+48307,Rochester,Oakland,38016,Michigan
+48308,Rochester,Oakland,0,Michigan
+48309,Rochester,Oakland,28124,Michigan
+48310,Sterling Heights,Macomb,41953,Michigan
+48311,Sterling Heights,Macomb,0,Michigan
+48312,Sterling Heights,Macomb,31877,Michigan
+48313,Sterling Heights,Macomb,33549,Michigan
+48314,Sterling Heights,Macomb,16718,Michigan
+48315,Utica,Macomb,22661,Michigan
+48316,Utica,Macomb,21219,Michigan
+48317,Utica,Macomb,25932,Michigan
+48318,Utica,Macomb,0,Michigan
+48320,Keego Harbor,Oakland,4407,Michigan
+48321,Auburn Hills,Oakland,0,Michigan
+48322,West Bloomfield,Oakland,30130,Michigan
+48323,West Bloomfield,Oakland,17891,Michigan
+48324,West Bloomfield,Oakland,18193,Michigan
+48325,West Bloomfield,Oakland,0,Michigan
+48326,Auburn Hills,Oakland,18055,Michigan
+48327,Waterford,Oakland,21250,Michigan
+48328,Waterford,Oakland,26443,Michigan
+48329,Waterford,Oakland,25909,Michigan
+48330,Drayton Plains,Oakland,0,Michigan
+48331,Farmington,Oakland,23000,Michigan
+48332,Farmington,Oakland,0,Michigan
+48333,Farmington,Oakland,0,Michigan
+48334,Farmington,Oakland,18012,Michigan
+48335,Farmington,Oakland,22521,Michigan
+48336,Farmington,Oakland,26924,Michigan
+48340,Pontiac,Oakland,24829,Michigan
+48341,Pontiac,Oakland,19425,Michigan
+48342,Pontiac,Oakland,21773,Michigan
+48343,Pontiac,Oakland,0,Michigan
+48346,Clarkston,Oakland,23095,Michigan
+48347,Clarkston,Oakland,0,Michigan
+48348,Clarkston,Oakland,19896,Michigan
+48350,Davisburg,Oakland,7080,Michigan
+48353,Hartland,Livingston,6118,Michigan
+48356,Highland,Oakland,8884,Michigan
+48357,Highland,Oakland,9085,Michigan
+48359,Lake Orion,Oakland,7685,Michigan
+48360,Lake Orion,Oakland,11296,Michigan
+48361,Lake Orion,Oakland,0,Michigan
+48362,Lake Orion,Oakland,13874,Michigan
+48363,Oakland,Oakland,4180,Michigan
+48366,Lakeville,Oakland,0,Michigan
+48367,Leonard,Oakland,4762,Michigan
+48370,Oxford,Oakland,1845,Michigan
+48371,Oxford,Oakland,18706,Michigan
+48374,Novi,Oakland,11994,Michigan
+48375,Novi,Oakland,20807,Michigan
+48376,Novi,Oakland,0,Michigan
+48377,Novi,Oakland,10759,Michigan
+48380,Milford,Oakland,5915,Michigan
+48381,Milford,Oakland,12172,Michigan
+48382,Commerce Township,Oakland,19018,Michigan
+48383,White Lake,Oakland,12479,Michigan
+48386,White Lake,Oakland,15806,Michigan
+48387,Union Lake,Oakland,0,Michigan
+48390,Walled Lake,Oakland,19791,Michigan
+48391,Walled Lake,Oakland,0,Michigan
+48393,Wixom,Oakland,16183,Michigan
+48397,Warren,Macomb,0,Michigan
+48398,Clawson,Oakland,0,Michigan
+48401,Applegate,Sanilac,1498,Michigan
+48410,Argyle,Sanilac,0,Michigan
+48411,Atlas,Genesee,0,Michigan
+48412,Attica,Lapeer,5892,Michigan
+48413,Bad Axe,Huron,8034,Michigan
+48414,Bancroft,Shiawassee,2650,Michigan
+48415,Birch Run,Saginaw,9599,Michigan
+48416,Brown City,Sanilac,5309,Michigan
+48417,Burt,Saginaw,3195,Michigan
+48418,Byron,Shiawassee,4039,Michigan
+48419,Carsonville,Sanilac,2656,Michigan
+48420,Clio,Genesee,22303,Michigan
+48421,Columbiaville,Lapeer,6971,Michigan
+48422,Croswell,Sanilac,6346,Michigan
+48423,Davison,Genesee,31244,Michigan
+48426,Decker,Sanilac,1117,Michigan
+48427,Deckerville,Sanilac,3119,Michigan
+48428,Dryden,Lapeer,4832,Michigan
+48429,Durand,Shiawassee,9955,Michigan
+48430,Fenton,Genesee,32089,Michigan
+48432,Filion,Huron,794,Michigan
+48433,Flushing,Genesee,25121,Michigan
+48434,Forestville,Sanilac,106,Michigan
+48435,Fostoria,Tuscola,2231,Michigan
+48436,Gaines,Genesee,3753,Michigan
+48437,Genesee,Genesee,373,Michigan
+48438,Goodrich,Genesee,5994,Michigan
+48439,Grand Blanc,Genesee,39708,Michigan
+48440,Hadley,Lapeer,56,Michigan
+48441,Harbor Beach,Huron,4554,Michigan
+48442,Holly,Oakland,19225,Michigan
+48444,Imlay City,Lapeer,9040,Michigan
+48445,Kinde,Huron,1741,Michigan
+48446,Lapeer,Lapeer,30789,Michigan
+48449,Lennon,Genesee,3807,Michigan
+48450,Lexington,Sanilac,4998,Michigan
+48451,Linden,Genesee,12391,Michigan
+48453,Marlette,Sanilac,5505,Michigan
+48454,Melvin,Sanilac,1138,Michigan
+48455,Metamora,Lapeer,8567,Michigan
+48456,Minden City,Sanilac,1072,Michigan
+48457,Montrose,Genesee,8416,Michigan
+48458,Mount Morris,Genesee,24309,Michigan
+48460,New Lothrop,Shiawassee,2465,Michigan
+48461,North Branch,Lapeer,7867,Michigan
+48462,Ortonville,Oakland,13138,Michigan
+48463,Otisville,Genesee,4894,Michigan
+48464,Otter Lake,Lapeer,2083,Michigan
+48465,Palms,Sanilac,629,Michigan
+48466,Peck,Sanilac,1601,Michigan
+48467,Port Austin,Huron,2652,Michigan
+48468,Port Hope,Huron,1397,Michigan
+48469,Port Sanilac,Sanilac,1457,Michigan
+48470,Ruth,Huron,921,Michigan
+48471,Sandusky,Sanilac,5934,Michigan
+48472,Snover,Sanilac,2042,Michigan
+48473,Swartz Creek,Genesee,19655,Michigan
+48475,Ubly,Huron,2780,Michigan
+48476,Vernon,Shiawassee,436,Michigan
+48501,Flint,Genesee,0,Michigan
+48502,Flint,Genesee,1024,Michigan
+48503,Flint,Genesee,29011,Michigan
+48504,Flint,Genesee,39186,Michigan
+48505,Flint,Genesee,34607,Michigan
+48506,Flint,Genesee,33504,Michigan
+48507,Flint,Genesee,33099,Michigan
+48509,Burton,Genesee,10074,Michigan
+48519,Burton,Genesee,7067,Michigan
+48529,Burton,Genesee,11310,Michigan
+48531,Flint,Genesee,0,Michigan
+48532,Flint,Genesee,19745,Michigan
+48550,Flint,Genesee,0,Michigan
+48551,Flint,Genesee,0,Michigan
+48552,Flint,Genesee,0,Michigan
+48553,Flint,Genesee,0,Michigan
+48554,Flint,Genesee,0,Michigan
+48555,Flint,Genesee,0,Michigan
+48556,Flint,Genesee,0,Michigan
+48557,Flint,Genesee,0,Michigan
+48559,Flint,Genesee,0,Michigan
+48601,Saginaw,Saginaw,47826,Michigan
+48602,Saginaw,Saginaw,32888,Michigan
+48603,Saginaw,Saginaw,38835,Michigan
+48604,Saginaw,Saginaw,11835,Michigan
+48605,Saginaw,Saginaw,0,Michigan
+48606,Saginaw,Saginaw,0,Michigan
+48607,Saginaw,Saginaw,2575,Michigan
+48608,Saginaw,Saginaw,0,Michigan
+48609,Saginaw,Saginaw,12303,Michigan
+48610,Alger,Arenac,3452,Michigan
+48611,Auburn,Bay,5884,Michigan
+48612,Beaverton,Gladwin,9228,Michigan
+48613,Bentley,Bay,1129,Michigan
+48614,Brant,Saginaw,1361,Michigan
+48615,Breckenridge,Gratiot,3120,Michigan
+48616,Chesaning,Saginaw,7510,Michigan
+48617,Clare,Clare,8680,Michigan
+48618,Coleman,Midland,5213,Michigan
+48619,Comins,Oscoda,457,Michigan
+48620,Edenville,Midland,38,Michigan
+48621,Fairview,Oscoda,1531,Michigan
+48622,Farwell,Clare,6209,Michigan
+48623,Freeland,Saginaw,12444,Michigan
+48624,Gladwin,Gladwin,16200,Michigan
+48625,Harrison,Clare,13624,Michigan
+48626,Hemlock,Saginaw,5860,Michigan
+48627,Higgins Lake,Roscommon,282,Michigan
+48628,Hope,Midland,2012,Michigan
+48629,Houghton Lake,Roscommon,7635,Michigan
+48630,Houghton Lake,Michigan Roscommon,265,Michigan
+48631,Kawkawlin,Bay,4632,Michigan
+48632,Lake,Clare,5159,Michigan
+48633,Lake George,Clare,65,Michigan
+48634,Linwood,Bay,4684,Michigan
+48635,Lupton,Ogemaw,1839,Michigan
+48636,Luzerne,Oscoda,1177,Michigan
+48637,Merrill,Saginaw,3377,Michigan
+48640,Midland,Midland,33075,Michigan
+48641,Midland,Midland,0,Michigan
+48642,Midland,Midland,31304,Michigan
+48647,Mio,Oscoda,4657,Michigan
+48649,Oakley,Saginaw,1759,Michigan
+48650,Pinconning,Bay,7587,Michigan
+48651,Prudenville,Roscommon,5079,Michigan
+48652,Rhodes,Gladwin,1520,Michigan
+48653,Roscommon,Roscommon,10087,Michigan
+48654,Rose City,Ogemaw,2774,Michigan
+48655,Saint Charles,Saginaw,6657,Michigan
+48656,Saint Helen,Roscommon,4525,Michigan
+48657,Sanford,Midland,8150,Michigan
+48658,Standish,Arenac,5953,Michigan
+48659,Sterling,Arenac,2755,Michigan
+48661,West Branch,Ogemaw,10100,Michigan
+48662,Wheeler,Gratiot,1635,Michigan
+48663,Saginaw,Saginaw,0,Michigan
+48667,Midland,Midland,0,Michigan
+48670,Midland,Midland,0,Michigan
+48674,Midland,Midland,0,Michigan
+48686,Midland,Midland,0,Michigan
+48701,Akron,Tuscola,1537,Michigan
+48703,Au Gres,Arenac,3342,Michigan
+48705,Barton City,Alcona,584,Michigan
+48706,Bay City,Bay,40647,Michigan
+48707,Bay City,Bay,0,Michigan
+48708,Bay City,Bay,28961,Michigan
+48710,University Center,Bay,0,Michigan
+48720,Bay Port,Huron,1218,Michigan
+48721,Black River,Alcona,485,Michigan
+48722,Bridgeport,Saginaw,3380,Michigan
+48723,Caro,Tuscola,12794,Michigan
+48724,Carrollton,Saginaw,308,Michigan
+48725,Caseville,Huron,2474,Michigan
+48726,Cass City,Tuscola,6481,Michigan
+48727,Clifford,Lapeer,1275,Michigan
+48728,Curran,Alcona,307,Michigan
+48729,Deford,Tuscola,1611,Michigan
+48730,East Tawas,Iosco,4857,Michigan
+48731,Elkton,Huron,1848,Michigan
+48732,Essexville,Bay,11918,Michigan
+48733,Fairgrove,Tuscola,2005,Michigan
+48734,Frankenmuth,Saginaw,7356,Michigan
+48735,Gagetown,Tuscola,1003,Michigan
+48736,Gilford,Tuscola,0,Michigan
+48737,Glennie,Alcona,1345,Michigan
+48738,Greenbush,Alcona,1458,Michigan
+48739,Hale,Iosco,4615,Michigan
+48740,Harrisville,Alcona,2581,Michigan
+48741,Kingston,Tuscola,2125,Michigan
+48742,Lincoln,Alcona,1812,Michigan
+48743,Long Lake,Iosco,25,Michigan
+48744,Mayville,Tuscola,5018,Michigan
+48745,Mikado,Alcona,1380,Michigan
+48746,Millington,Tuscola,8851,Michigan
+48747,Munger,Bay,1542,Michigan
+48748,National City,Iosco,1776,Michigan
+48749,Omer,Arenac,1298,Michigan
+48750,Oscoda,Iosco,9233,Michigan
+48754,Owendale,Huron,1011,Michigan
+48755,Pigeon,Huron,3237,Michigan
+48756,Prescott,Ogemaw,4185,Michigan
+48757,Reese,Tuscola,4003,Michigan
+48758,Richville,Tuscola,0,Michigan
+48759,Sebewaing,Huron,3625,Michigan
+48760,Silverwood,Tuscola,1133,Michigan
+48761,South Branch,Ogemaw,1133,Michigan
+48762,Spruce,Alcona,1329,Michigan
+48763,Tawas City,Iosco,5129,Michigan
+48764,Tawas City,Iosco,0,Michigan
+48765,Turner,Arenac,925,Michigan
+48766,Twining,Arenac,1454,Michigan
+48767,Unionville,Tuscola,2298,Michigan
+48768,Vassar,Tuscola,10099,Michigan
+48769,Tuscola,Tuscola,0,Michigan
+48770,Whittemore,Iosco,2028,Michigan
+48787,Frankenmuth,Saginaw,0,Michigan
+48801,Alma,Gratiot,12965,Michigan
+48802,Alma,Gratiot,0,Michigan
+48804,Mount Pleasant,Isabella,0,Michigan
+48805,Okemos,Ingham,0,Michigan
+48806,Ashley,Gratiot,1770,Michigan
+48807,Bannister,Gratiot,920,Michigan
+48808,Bath,Clinton,4074,Michigan
+48809,Belding,Ionia,11192,Michigan
+48811,Carson City,Montcalm,5049,Michigan
+48812,Cedar Lake,Montcalm,0,Michigan
+48813,Charlotte,Eaton,20363,Michigan
+48815,Clarksville,Ionia,2095,Michigan
+48816,Cohoctah,Livingston,0,Michigan
+48817,Corunna,Shiawassee,6490,Michigan
+48818,Crystal,Montcalm,2650,Michigan
+48819,Dansville,Ingham,2387,Michigan
+48820,Dewitt,Clinton,14331,Michigan
+48821,Dimondale,Eaton,5582,Michigan
+48822,Eagle,Clinton,2483,Michigan
+48823,East Lansing,Ingham,46320,Michigan
+48824,East Lansing,Ingham,12650,Michigan
+48825,East Lansing,Ingham,0,Michigan
+48826,East Lansing,Ingham,0,Michigan
+48827,Eaton Rapids,Eaton,15026,Michigan
+48829,Edmore,Montcalm,3430,Michigan
+48830,Elm Hall,Gratiot,73,Michigan
+48831,Elsie,Clinton,3613,Michigan
+48832,Elwell,Gratiot,1434,Michigan
+48833,Eureka,Clinton,0,Michigan
+48834,Fenwick,Montcalm,2412,Michigan
+48835,Fowler,Clinton,3420,Michigan
+48836,Fowlerville,Livingston,11689,Michigan
+48837,Grand Ledge,Eaton,17456,Michigan
+48838,Greenville,Montcalm,16540,Michigan
+48840,Haslett,Ingham,12100,Michigan
+48841,Henderson,Shiawassee,860,Michigan
+48842,Holt,Ingham,18412,Michigan
+48843,Howell,Livingston,44142,Michigan
+48844,Howell,Livingston,0,Michigan
+48845,Hubbardston,Ionia,1017,Michigan
+48846,Ionia,Ionia,19934,Michigan
+48847,Ithaca,Gratiot,6381,Michigan
+48848,Laingsburg,Shiawassee,7901,Michigan
+48849,Lake Odessa,Ionia,6150,Michigan
+48850,Lakeview,Montcalm,4698,Michigan
+48851,Lyons,Ionia,2256,Michigan
+48852,McBrides,Montcalm,126,Michigan
+48853,Maple Rapids,Clinton,448,Michigan
+48854,Mason,Ingham,16959,Michigan
+48856,Middleton,Gratiot,937,Michigan
+48857,Morrice,Shiawassee,2335,Michigan
+48858,Mount Pleasant,Isabella,44185,Michigan
+48859,Mount Pleasant,Isabella,0,Michigan
+48860,Muir,Ionia,1398,Michigan
+48861,Mulliken,Eaton,1633,Michigan
+48862,North Star,Gratiot,0,Michigan
+48863,Oak Grove,Livingston,0,Michigan
+48864,Okemos,Ingham,19602,Michigan
+48865,Orleans,Ionia,1852,Michigan
+48866,Ovid,Clinton,4661,Michigan
+48867,Owosso,Shiawassee,28041,Michigan
+48870,Palo,Ionia,0,Michigan
+48871,Perrinton,Gratiot,1907,Michigan
+48872,Perry,Shiawassee,7535,Michigan
+48873,Pewamo,Ionia,1896,Michigan
+48874,Pompeii,Gratiot,174,Michigan
+48875,Portland,Ionia,9208,Michigan
+48876,Potterville,Eaton,3473,Michigan
+48877,Riverdale,Gratiot,2477,Michigan
+48878,Rosebush,Isabella,1683,Michigan
+48879,Saint Johns,Clinton,17193,Michigan
+48880,Saint Louis,Gratiot,9519,Michigan
+48881,Saranac,Ionia,5319,Michigan
+48882,Shaftsburg,Shiawassee,0,Michigan
+48883,Shepherd,Isabella,7347,Michigan
+48884,Sheridan,Montcalm,4770,Michigan
+48885,Sidney,Montcalm,813,Michigan
+48886,Six Lakes,Montcalm,2215,Michigan
+48887,Smyrna,Ionia,0,Michigan
+48888,Stanton,Montcalm,6859,Michigan
+48889,Sumner,Gratiot,1351,Michigan
+48890,Sunfield,Eaton,2107,Michigan
+48891,Vestaburg,Montcalm,3029,Michigan
+48892,Webberville,Ingham,4348,Michigan
+48893,Weidman,Isabella,4748,Michigan
+48894,Westphalia,Clinton,657,Michigan
+48895,Williamston,Ingham,11145,Michigan
+48896,Winn,Isabella,117,Michigan
+48897,Woodland,Barry,1442,Michigan
+48901,Lansing,Ingham,0,Michigan
+48906,Lansing,Ingham,26505,Michigan
+48907,Lansing,Eaton,0,Michigan
+48908,Lansing,Eaton,0,Michigan
+48909,Lansing,Ingham,0,Michigan
+48910,Lansing,Ingham,35735,Michigan
+48911,Lansing,Ingham,40020,Michigan
+48912,Lansing,Ingham,18583,Michigan
+48913,Lansing,Ingham,0,Michigan
+48915,Lansing,Ingham,10233,Michigan
+48916,Lansing,Ingham,0,Michigan
+48917,Lansing,Eaton,31366,Michigan
+48918,Lansing,Ingham,0,Michigan
+48919,Lansing,Ingham,0,Michigan
+48921,Lansing,Ingham,0,Michigan
+48922,Lansing,Ingham,0,Michigan
+48924,Lansing,Ingham,0,Michigan
+48929,Lansing,Ingham,0,Michigan
+48930,Lansing,Ingham,0,Michigan
+48933,Lansing,Ingham,2465,Michigan
+48937,Lansing,Ingham,0,Michigan
+48950,Lansing,Ingham,0,Michigan
+48956,Lansing,Ingham,0,Michigan
+48980,Lansing,Ingham,0,Michigan
+49001,Kalamazoo,Kalamazoo,41757,Michigan
+49002,Portage,Kalamazoo,19194,Michigan
+49003,Kalamazoo,Kalamazoo,0,Michigan
+49004,Kalamazoo,Kalamazoo,21727,Michigan
+49005,Kalamazoo,Kalamazoo,0,Michigan
+49006,Kalamazoo,Kalamazoo,23683,Michigan
+49007,Kalamazoo,Kalamazoo,11959,Michigan
+49008,Kalamazoo,Kalamazoo,21542,Michigan
+49009,Kalamazoo,Kalamazoo,29989,Michigan
+49010,Allegan,Allegan,16614,Michigan
+49011,Athens,Calhoun,2237,Michigan
+49012,Augusta,Kalamazoo,3500,Michigan
+49013,Bangor,Van Buren,5486,Michigan
+49014,Battle Creek,Calhoun,22869,Michigan
+49015,Battle Creek,Calhoun,34067,Michigan
+49016,Battle Creek,Calhoun,293,Michigan
+49017,Battle Creek,Calhoun,36322,Michigan
+49018,Battle Creek,Calhoun,0,Michigan
+49019,Kalamazoo,Kalamazoo,0,Michigan
+49020,Bedford,Calhoun,0,Michigan
+49021,Bellevue,Eaton,6085,Michigan
+49022,Benton Harbor,Berrien,35153,Michigan
+49023,Benton Harbor,Berrien,0,Michigan
+49024,Portage,Kalamazoo,28062,Michigan
+49026,Bloomingdale,Van Buren,2650,Michigan
+49027,Breedsville,Van Buren,103,Michigan
+49028,Bronson,Branch,6730,Michigan
+49029,Burlington,Calhoun,1706,Michigan
+49030,Burr Oak,Saint Joseph,2488,Michigan
+49031,Cassopolis,Cass,7839,Michigan
+49032,Centreville,Saint Joseph,3422,Michigan
+49033,Ceresco,Calhoun,1638,Michigan
+49034,Climax,Kalamazoo,2232,Michigan
+49035,Cloverdale,Barry,0,Michigan
+49036,Coldwater,Branch,24747,Michigan
+49038,Coloma,Berrien,10075,Michigan
+49039,Hagar Shores,Berrien,0,Michigan
+49040,Colon,Saint Joseph,3526,Michigan
+49041,Comstock,Kalamazoo,0,Michigan
+49042,Constantine,Saint Joseph,4973,Michigan
+49043,Covert,Van Buren,2551,Michigan
+49045,Decatur,Van Buren,6021,Michigan
+49046,Delton,Barry,7421,Michigan
+49047,Dowagiac,Cass,15421,Michigan
+49050,Dowling,Barry,1562,Michigan
+49051,East Leroy,Calhoun,2296,Michigan
+49052,Fulton,Kalamazoo,850,Michigan
+49053,Galesburg,Kalamazoo,6402,Michigan
+49055,Gobles,Van Buren,6211,Michigan
+49056,Grand Junction,Van Buren,4107,Michigan
+49057,Hartford,Van Buren,6752,Michigan
+49058,Hastings,Barry,18071,Michigan
+49060,Hickory Corners,Barry,2086,Michigan
+49061,Jones,Cass,1634,Michigan
+49062,Kendall,Van Buren,0,Michigan
+49063,Lacota,Van Buren,0,Michigan
+49064,Lawrence,Van Buren,3787,Michigan
+49065,Lawton,Van Buren,6396,Michigan
+49066,Leonidas,Saint Joseph,782,Michigan
+49067,Marcellus,Cass,4517,Michigan
+49068,Marshall,Calhoun,15091,Michigan
+49069,Marshall,Calhoun,0,Michigan
+49070,Martin,Allegan,2230,Michigan
+49071,Mattawan,Van Buren,8062,Michigan
+49072,Mendon,Saint Joseph,3300,Michigan
+49073,Nashville,Barry,5134,Michigan
+49074,Nazareth,Kalamazoo,0,Michigan
+49075,Nottawa,Saint Joseph,161,Michigan
+49076,Olivet,Eaton,4444,Michigan
+49077,Oshtemo,Kalamazoo,0,Michigan
+49078,Otsego,Allegan,9076,Michigan
+49079,Paw Paw,Van Buren,12691,Michigan
+49080,Plainwell,Allegan,14277,Michigan
+49081,Portage,Kalamazoo,0,Michigan
+49082,Quincy,Branch,6692,Michigan
+49083,Richland,Kalamazoo,6475,Michigan
+49084,Riverside,Berrien,0,Michigan
+49085,Saint Joseph,Berrien,23918,Michigan
+49087,Schoolcraft,Kalamazoo,5488,Michigan
+49088,Scotts,Kalamazoo,3019,Michigan
+49089,Sherwood,Branch,2017,Michigan
+49090,South Haven,Van Buren,15031,Michigan
+49091,Sturgis,Saint Joseph,20496,Michigan
+49092,Tekonsha,Calhoun,2238,Michigan
+49093,Three Rivers,Saint Joseph,17920,Michigan
+49094,Union City,Branch,4212,Michigan
+49095,Vandalia,Cass,1993,Michigan
+49096,Vermontville,Eaton,3305,Michigan
+49097,Vicksburg,Kalamazoo,9791,Michigan
+49098,Watervliet,Berrien,6285,Michigan
+49099,White Pigeon,Saint Joseph,5613,Michigan
+49101,Baroda,Berrien,3197,Michigan
+49102,Berrien Center,Berrien,1493,Michigan
+49103,Berrien Springs,Berrien,12756,Michigan
+49104,Berrien Springs,Berrien,0,Michigan
+49106,Bridgman,Berrien,4942,Michigan
+49107,Buchanan,Berrien,10669,Michigan
+49111,Eau Claire,Berrien,3629,Michigan
+49112,Edwardsburg,Cass,9937,Michigan
+49113,Galien,Berrien,2042,Michigan
+49115,Harbert,Berrien,36,Michigan
+49116,Lakeside,Berrien,250,Michigan
+49117,New Buffalo,Berrien,4291,Michigan
+49119,New Troy,Berrien,112,Michigan
+49120,Niles,Berrien,35356,Michigan
+49121,Niles,Berrien,0,Michigan
+49125,Sawyer,Berrien,2578,Michigan
+49126,Sodus,Berrien,1504,Michigan
+49127,Stevensville,Berrien,9287,Michigan
+49128,Three Oaks,Berrien,4597,Michigan
+49129,Union Pier,Berrien,727,Michigan
+49130,Union,Cass,1301,Michigan
+49201,Jackson,Jackson,45567,Michigan
+49202,Jackson,Jackson,21455,Michigan
+49203,Jackson,Jackson,38134,Michigan
+49204,Jackson,Jackson,0,Michigan
+49220,Addison,Lenawee,2357,Michigan
+49221,Adrian,Lenawee,41097,Michigan
+49224,Albion,Calhoun,14815,Michigan
+49227,Allen,Hillsdale,1240,Michigan
+49228,Blissfield,Lenawee,5653,Michigan
+49229,Britton,Lenawee,3085,Michigan
+49230,Brooklyn,Jackson,9474,Michigan
+49232,Camden,Hillsdale,2886,Michigan
+49233,Cement City,Lenawee,1467,Michigan
+49234,Clarklake,Jackson,2704,Michigan
+49235,Clayton,Lenawee,1984,Michigan
+49236,Clinton,Lenawee,4802,Michigan
+49237,Concord,Jackson,3051,Michigan
+49238,Deerfield,Lenawee,1810,Michigan
+49239,Frontier,Hillsdale,0,Michigan
+49240,Grass Lake,Jackson,7475,Michigan
+49241,Hanover,Jackson,2349,Michigan
+49242,Hillsdale,Hillsdale,15245,Michigan
+49245,Homer,Calhoun,4787,Michigan
+49246,Horton,Jackson,3309,Michigan
+49247,Hudson,Lenawee,6053,Michigan
+49248,Jasper,Lenawee,912,Michigan
+49249,Jerome,Hillsdale,3575,Michigan
+49250,Jonesville,Hillsdale,5958,Michigan
+49251,Leslie,Ingham,6144,Michigan
+49252,Litchfield,Hillsdale,2569,Michigan
+49253,Manitou Beach,Lenawee,2977,Michigan
+49254,Michigan Center,Jackson,3348,Michigan
+49255,Montgomery,Branch,1899,Michigan
+49256,Morenci,Lenawee,4272,Michigan
+49257,Moscow,Hillsdale,0,Michigan
+49258,Mosherville,Hillsdale,0,Michigan
+49259,Munith,Jackson,2789,Michigan
+49261,Napoleon,Jackson,0,Michigan
+49262,North Adams,Hillsdale,1398,Michigan
+49263,Norvell,Jackson,38,Michigan
+49264,Onondaga,Ingham,1871,Michigan
+49265,Onsted,Lenawee,4828,Michigan
+49266,Osseo,Hillsdale,2973,Michigan
+49267,Ottawa Lake,Monroe,4038,Michigan
+49268,Palmyra,Lenawee,1200,Michigan
+49269,Parma,Jackson,6479,Michigan
+49270,Petersburg,Monroe,5814,Michigan
+49271,Pittsford,Hillsdale,2347,Michigan
+49272,Pleasant Lake,Jackson,2411,Michigan
+49274,Reading,Hillsdale,3648,Michigan
+49275,Ridgeway,Lenawee,0,Michigan
+49276,Riga,Lenawee,1014,Michigan
+49277,Rives Junction,Jackson,3740,Michigan
+49278,Rollin,Lenawee,0,Michigan
+49279,Sand Creek,Lenawee,930,Michigan
+49280,Seneca,Lenawee,0,Michigan
+49281,Somerset,Hillsdale,555,Michigan
+49282,Somerset Center,Hillsdale,785,Michigan
+49283,Spring Arbor,Jackson,3110,Michigan
+49284,Springport,Jackson,3110,Michigan
+49285,Stockbridge,Ingham,5061,Michigan
+49286,Tecumseh,Lenawee,14168,Michigan
+49287,Tipton,Lenawee,1925,Michigan
+49288,Waldron,Hillsdale,1383,Michigan
+49289,Weston,Lenawee,100,Michigan
+49301,Ada,Kent,10439,Michigan
+49302,Alto,Kent,6467,Michigan
+49303,Bailey,Muskegon,1024,Michigan
+49304,Baldwin,Lake,4551,Michigan
+49305,Barryton,Mecosta,2600,Michigan
+49306,Belmont,Kent,8008,Michigan
+49307,Big Rapids,Mecosta,19166,Michigan
+49309,Bitely,Newaygo,1869,Michigan
+49310,Blanchard,Isabella,2757,Michigan
+49311,Bradley,Allegan,0,Michigan
+49312,Brohman,Newaygo,87,Michigan
+49314,Burnips,Allegan,0,Michigan
+49315,Byron Center,Kent,13721,Michigan
+49316,Caledonia,Kent,13968,Michigan
+49317,Cannonsburg,Kent,0,Michigan
+49318,Casnovia,Muskegon,1460,Michigan
+49319,Cedar Springs,Kent,13692,Michigan
+49320,Chippewa Lake,Mecosta,0,Michigan
+49321,Comstock Park,Kent,15613,Michigan
+49322,Coral,Montcalm,1261,Michigan
+49323,Dorr,Allegan,7817,Michigan
+49325,Freeport,Barry,1642,Michigan
+49326,Gowen,Kent,3445,Michigan
+49327,Grant,Newaygo,7769,Michigan
+49328,Hopkins,Allegan,3789,Michigan
+49329,Howard City,Montcalm,6865,Michigan
+49330,Kent City,Kent,4875,Michigan
+49331,Lowell,Kent,14689,Michigan
+49332,Mecosta,Mecosta,2859,Michigan
+49333,Middleville,Barry,9320,Michigan
+49335,Moline,Allegan,219,Michigan
+49336,Morley,Mecosta,3936,Michigan
+49337,Newaygo,Newaygo,12118,Michigan
+49338,Paris,Mecosta,1912,Michigan
+49339,Pierson,Montcalm,2155,Michigan
+49340,Remus,Mecosta,2935,Michigan
+49341,Rockford,Kent,29095,Michigan
+49342,Rodney,Mecosta,1812,Michigan
+49343,Sand Lake,Kent,4991,Michigan
+49344,Shelbyville,Allegan,3314,Michigan
+49345,Sparta,Kent,12374,Michigan
+49346,Stanwood,Mecosta,4581,Michigan
+49347,Trufant,Montcalm,1292,Michigan
+49348,Wayland,Allegan,11406,Michigan
+49349,White Cloud,Newaygo,8430,Michigan
+49351,Rockford,Kent,0,Michigan
+49355,Ada,Kent,0,Michigan
+49356,Ada,Kent,0,Michigan
+49357,Ada,Kent,0,Michigan
+49401,Allendale,Ottawa,13110,Michigan
+49402,Branch,Mason,1365,Michigan
+49403,Conklin,Ottawa,2495,Michigan
+49404,Coopersville,Ottawa,7952,Michigan
+49405,Custer,Mason,1563,Michigan
+49406,Douglas,Allegan,740,Michigan
+49408,Fennville,Allegan,9296,Michigan
+49409,Ferrysburg,Ottawa,0,Michigan
+49410,Fountain,Mason,1683,Michigan
+49411,Free Soil,Mason,1673,Michigan
+49412,Fremont,Newaygo,11302,Michigan
+49413,Fremont,Newaygo,0,Michigan
+49415,Fruitport,Muskegon,5818,Michigan
+49416,Glenn,Allegan,0,Michigan
+49417,Grand Haven,Ottawa,27969,Michigan
+49418,Grandville,Kent,25028,Michigan
+49419,Hamilton,Allegan,6479,Michigan
+49420,Hart,Oceana,6685,Michigan
+49421,Hesperia,Oceana,6029,Michigan
+49422,Holland,Ottawa,0,Michigan
+49423,Holland,Ottawa,46804,Michigan
+49424,Holland,Ottawa,42299,Michigan
+49425,Holton,Muskegon,3705,Michigan
+49426,Hudsonville,Ottawa,27015,Michigan
+49427,Jamestown,Ottawa,0,Michigan
+49428,Jenison,Ottawa,24452,Michigan
+49429,Jenison,Ottawa,0,Michigan
+49430,Lamont,Ottawa,0,Michigan
+49431,Ludington,Mason,16507,Michigan
+49434,Macatawa,Ottawa,44,Michigan
+49435,Marne,Ottawa,3615,Michigan
+49436,Mears,Oceana,1675,Michigan
+49437,Montague,Muskegon,6762,Michigan
+49440,Muskegon,Muskegon,759,Michigan
+49441,Muskegon,Muskegon,40947,Michigan
+49442,Muskegon,Muskegon,45946,Michigan
+49443,Muskegon,Muskegon,0,Michigan
+49444,Muskegon,Muskegon,21463,Michigan
+49445,Muskegon,Muskegon,19811,Michigan
+49446,New Era,Oceana,2294,Michigan
+49448,Nunica,Ottawa,3251,Michigan
+49449,Pentwater,Oceana,2800,Michigan
+49450,Pullman,Allegan,3348,Michigan
+49451,Ravenna,Muskegon,6053,Michigan
+49452,Rothbury,Oceana,1834,Michigan
+49453,Saugatuck,Allegan,2517,Michigan
+49454,Scottville,Mason,4610,Michigan
+49455,Shelby,Oceana,5210,Michigan
+49456,Spring Lake,Ottawa,17080,Michigan
+49457,Twin Lake,Muskegon,9587,Michigan
+49458,Walhalla,Mason,149,Michigan
+49459,Walkerville,Oceana,1459,Michigan
+49460,West Olive,Ottawa,7697,Michigan
+49461,Whitehall,Muskegon,8747,Michigan
+49463,Wabaningo,Muskegon,0,Michigan
+49464,Zeeland,Ottawa,21038,Michigan
+49468,Grandville,Kent,0,Michigan
+49501,Grand Rapids,Kent,0,Michigan
+49502,Grand Rapids,Kent,0,Michigan
+49503,Grand Rapids,Kent,33909,Michigan
+49504,Grand Rapids,Kent,40199,Michigan
+49505,Grand Rapids,Kent,31967,Michigan
+49506,Grand Rapids,Kent,33864,Michigan
+49507,Grand Rapids,Kent,39734,Michigan
+49508,Grand Rapids,Kent,40065,Michigan
+49509,Grand Rapids,Kent,59089,Michigan
+49510,Grand Rapids,Kent,0,Michigan
+49512,Grand Rapids,Kent,11195,Michigan
+49514,Grand Rapids,Kent,0,Michigan
+49515,Grand Rapids,Kent,0,Michigan
+49516,Grand Rapids,Kent,0,Michigan
+49518,Grand Rapids,Kent,0,Michigan
+49523,Grand Rapids,Kent,0,Michigan
+49525,Grand Rapids,Kent,26662,Michigan
+49530,Grand Rapids,Kent,0,Michigan
+49544,Grand Rapids,Kent,28217,Michigan
+49546,Grand Rapids,Kent,33844,Michigan
+49548,Grand Rapids,Kent,31475,Michigan
+49550,Grand Rapids,Kent,0,Michigan
+49555,Grand Rapids,Kent,0,Michigan
+49560,Grand Rapids,Kent,0,Michigan
+49588,Grand Rapids,Kent,0,Michigan
+49599,Grand Rapids,Kent,0,Michigan
+49601,Cadillac,Wexford,20207,Michigan
+49610,Acme,Grand Traverse,0,Michigan
+49611,Alba,Antrim,343,Michigan
+49612,Alden,Antrim,1101,Michigan
+49613,Arcadia,Manistee,676,Michigan
+49614,Bear Lake,Manistee,2658,Michigan
+49615,Bellaire,Antrim,3970,Michigan
+49616,Benzonia,Benzie,2105,Michigan
+49617,Beulah,Benzie,3086,Michigan
+49618,Boon,Wexford,743,Michigan
+49619,Brethren,Manistee,1060,Michigan
+49620,Buckley,Wexford,2074,Michigan
+49621,Cedar,Leelanau,2711,Michigan
+49622,Central Lake,Antrim,2745,Michigan
+49623,Chase,Lake,1218,Michigan
+49625,Copemish,Manistee,1283,Michigan
+49626,Eastlake,Manistee,290,Michigan
+49627,Eastport,Antrim,239,Michigan
+49628,Elberta,Benzie,234,Michigan
+49629,Elk Rapids,Antrim,2314,Michigan
+49630,Empire,Leelanau,1240,Michigan
+49631,Evart,Osceola,6273,Michigan
+49632,Falmouth,Missaukee,1148,Michigan
+49633,Fife Lake,Kalkaska,3490,Michigan
+49634,Filer City,Manistee,86,Michigan
+49635,Frankfort,Benzie,3637,Michigan
+49636,Glen Arbor,Leelanau,554,Michigan
+49637,Grawn,Grand Traverse,2429,Michigan
+49638,Harrietta,Wexford,909,Michigan
+49639,Hersey,Osceola,2379,Michigan
+49640,Honor,Benzie,1519,Michigan
+49642,Idlewild,Lake,685,Michigan
+49643,Interlochen,Grand Traverse,5002,Michigan
+49644,Irons,Lake,1766,Michigan
+49645,Kaleva,Manistee,1564,Michigan
+49646,Kalkaska,Kalkaska,8148,Michigan
+49648,Kewadin,Antrim,2026,Michigan
+49649,Kingsley,Grand Traverse,5744,Michigan
+49650,Lake Ann,Benzie,2502,Michigan
+49651,Lake City,Missaukee,7536,Michigan
+49653,Lake Leelanau,Leelanau,2086,Michigan
+49654,Leland,Leelanau,621,Michigan
+49655,Leroy,Osceola,3023,Michigan
+49656,Luther,Lake,1454,Michigan
+49657,Mc Bain,Missaukee,3329,Michigan
+49659,Mancelona,Antrim,6401,Michigan
+49660,Manistee,Manistee,14093,Michigan
+49663,Manton,Wexford,5514,Michigan
+49664,Maple City,Leelanau,2047,Michigan
+49665,Marion,Osceola,4245,Michigan
+49666,Mayfield,Grand Traverse,39,Michigan
+49667,Merritt,Missaukee,550,Michigan
+49668,Mesick,Wexford,3328,Michigan
+49670,Northport,Leelanau,2106,Michigan
+49673,Old Mission,Grand Traverse,0,Michigan
+49674,Omena,Leelanau,0,Michigan
+49675,Onekama,Manistee,1188,Michigan
+49676,Rapid City,Kalkaska,3104,Michigan
+49677,Reed City,Osceola,6915,Michigan
+49679,Sears,Osceola,1110,Michigan
+49680,South Boardman,Kalkaska,1811,Michigan
+49682,Suttons Bay,Leelanau,3993,Michigan
+49683,Thompsonville,Benzie,1794,Michigan
+49684,Traverse City,Grand Traverse,34987,Michigan
+49685,Traverse City,Grand Traverse,0,Michigan
+49686,Traverse City,Grand Traverse,28868,Michigan
+49688,Tustin,Osceola,2602,Michigan
+49689,Wellston,Manistee,1630,Michigan
+49690,Williamsburg,Grand Traverse,6682,Michigan
+49696,Traverse City,Grand Traverse,0,Michigan
+49701,Mackinaw City,Cheboygan,800,Michigan
+49705,Afton,Cheboygan,921,Michigan
+49706,Alanson,Emmet,4607,Michigan
+49707,Alpena,Alpena,24244,Michigan
+49709,Atlanta,Montmorency,4098,Michigan
+49710,Barbeau,Chippewa,436,Michigan
+49711,Bay Shore,Charlevoix,0,Michigan
+49712,Boyne City,Charlevoix,7971,Michigan
+49713,Boyne Falls,Charlevoix,1962,Michigan
+49715,Brimley,Chippewa,2793,Michigan
+49716,Brutus,Emmet,834,Michigan
+49717,Burt Lake,Cheboygan,0,Michigan
+49718,Carp Lake,Emmet,912,Michigan
+49719,Cedarville,Mackinac,1662,Michigan
+49720,Charlevoix,Charlevoix,9480,Michigan
+49721,Cheboygan,Cheboygan,14995,Michigan
+49722,Conway,Emmet,83,Michigan
+49723,Cross Village,Emmet,0,Michigan
+49724,Dafter,Chippewa,1194,Michigan
+49725,De Tour,Michigan Chippewa,865,Michigan
+49726,Drummond Island,Chippewa,992,Michigan
+49727,East Jordan,Charlevoix,7136,Michigan
+49728,Eckerman,Chippewa,331,Michigan
+49729,Ellsworth,Antrim,1656,Michigan
+49730,Elmira,Otsego,1842,Michigan
+49733,Frederic,Crawford,1932,Michigan
+49734,Gaylord,Otsego,0,Michigan
+49735,Gaylord,Otsego,18911,Michigan
+49736,Goetzville,Chippewa,599,Michigan
+49737,Good Hart,Emmet,0,Michigan
+49738,Grayling,Crawford,10413,Michigan
+49739,Grayling,Crawford,0,Michigan
+49740,Harbor Springs,Emmet,7329,Michigan
+49743,Hawks,Presque Isle,860,Michigan
+49744,Herron,Alpena,778,Michigan
+49745,Hessel,Mackinac,204,Michigan
+49746,Hillman,Montmorency,3725,Michigan
+49747,Hubbard Lake,Alpena,1915,Michigan
+49748,Hulbert,Chippewa,263,Michigan
+49749,Indian River,Cheboygan,4309,Michigan
+49751,Johannesburg,Otsego,1830,Michigan
+49752,Kinross,Chippewa,374,Michigan
+49753,Lachine,Alpena,2227,Michigan
+49755,Levering,Emmet,2040,Michigan
+49756,Lewiston,Montmorency,4002,Michigan
+49757,Mackinac Island,Mackinac,523,Michigan
+49759,Millersburg,Presque Isle,1686,Michigan
+49760,Moran,Mackinac,766,Michigan
+49761,Mullett Lake,Cheboygan,31,Michigan
+49762,Naubinway,Mackinac,731,Michigan
+49764,Oden,Emmet,85,Michigan
+49765,Onaway,Presque Isle,4454,Michigan
+49766,Ossineke,Alpena,2544,Michigan
+49768,Paradise,Chippewa,445,Michigan
+49769,Pellston,Emmet,1515,Michigan
+49770,Petoskey,Emmet,15527,Michigan
+49774,Pickford,Chippewa,1835,Michigan
+49775,Pointe Aux,Michigan Mackinac,71,Michigan
+49776,Posen,Presque Isle,2042,Michigan
+49777,Presque Isle,Presque Isle,1541,Michigan
+49778,Brimley,Chippewa,0,Michigan
+49779,Rogers City,Presque Isle,5188,Michigan
+49780,Rudyard,Chippewa,2199,Michigan
+49781,Saint Ignace,Mackinac,5202,Michigan
+49782,Beaver Island,Charlevoix,551,Michigan
+49783,Sault Sainte,Michigan Chippewa,21461,Michigan
+49784,Kincheloe,Chippewa,0,Michigan
+49785,Kincheloe,Chippewa,0,Michigan
+49786,Kincheloe,Chippewa,0,Michigan
+49788,Kincheloe,Chippewa,5075,Michigan
+49790,Strongs,Chippewa,0,Michigan
+49791,Topinabee,Cheboygan,68,Michigan
+49792,Tower,Cheboygan,69,Michigan
+49793,Trout Lake,Chippewa,143,Michigan
+49795,Vanderbilt,Otsego,1939,Michigan
+49796,Walloon Lake,Charlevoix,173,Michigan
+49797,Waters,Otsego,0,Michigan
+49799,Wolverine,Cheboygan,2112,Michigan
+49801,Iron Mountain,Dickinson,12401,Michigan
+49802,Kingsford,Dickinson,7011,Michigan
+49805,Allouez,Keweenaw,222,Michigan
+49806,Au Train,Alger,570,Michigan
+49807,Bark River,Delta,3660,Michigan
+49808,Big Bay,Marquette,187,Michigan
+49812,Carney,Menominee,867,Michigan
+49813,-,-,230,Michigan
+49814,Champion,Marquette,1558,Michigan
+49815,Channing,Dickinson,544,Michigan
+49816,Chatham,Alger,749,Michigan
+49817,Cooks,Schoolcraft,572,Michigan
+49818,Cornell,Delta,1035,Michigan
+49819,Arnold,Marquette,0,Michigan
+49820,Curtis,Mackinac,844,Michigan
+49821,Daggett,Menominee,1439,Michigan
+49822,Deerton,Alger,164,Michigan
+49825,Eben Junction,Alger,214,Michigan
+49826,Rumely,Alger,38,Michigan
+49827,Engadine,Mackinac,945,Michigan
+49829,Escanaba,Delta,18414,Michigan
+49831,Felch,Dickinson,40,Michigan
+49833,Little Lake,Marquette,249,Michigan
+49834,Foster City,Dickinson,279,Michigan
+49835,Garden,Delta,964,Michigan
+49836,Germfask,Schoolcraft,685,Michigan
+49837,Gladstone,Delta,9655,Michigan
+49838,Gould City,Mackinac,341,Michigan
+49839,Grand Marais,Alger,433,Michigan
+49840,Gulliver,Schoolcraft,843,Michigan
+49841,Gwinn,Marquette,5583,Michigan
+49845,Harris,Menominee,0,Michigan
+49847,Hermansville,Menominee,1041,Michigan
+49848,Ingalls,Menominee,189,Michigan
+49849,Ishpeming,Marquette,12619,Michigan
+49852,Loretto,Dickinson,115,Michigan
+49853,Mc Millan,Luce,1303,Michigan
+49854,Manistique,Schoolcraft,6752,Michigan
+49855,Marquette,Marquette,32378,Michigan
+49858,Menominee,Menominee,13303,Michigan
+49861,Michigamme,Marquette,511,Michigan
+49862,Munising,Alger,5073,Michigan
+49863,Nadeau,Menominee,125,Michigan
+49864,Nahma,Delta,21,Michigan
+49865,National Mine,Marquette,0,Michigan
+49866,Negaunee,Marquette,7817,Michigan
+49868,Newberry,Luce,5751,Michigan
+49870,Norway,Dickinson,3467,Michigan
+49871,Palmer,Marquette,454,Michigan
+49872,Perkins,Delta,59,Michigan
+49873,Perronville,Menominee,100,Michigan
+49874,Powers,Menominee,1089,Michigan
+49876,Quinnesec,Dickinson,1195,Michigan
+49877,Ralph,Dickinson,51,Michigan
+49878,Rapid River,Delta,3918,Michigan
+49879,Republic,Marquette,996,Michigan
+49880,Rock,Delta,1214,Michigan
+49881,Sagola,Dickinson,380,Michigan
+49883,Seney,Schoolcraft,188,Michigan
+49884,Shingleton,Alger,942,Michigan
+49885,Skandia,Marquette,2074,Michigan
+49886,Spalding,Menominee,556,Michigan
+49887,Stephenson,Menominee,2309,Michigan
+49891,Trenary,Alger,944,Michigan
+49892,Vulcan,Dickinson,2046,Michigan
+49893,Wallace,Menominee,1679,Michigan
+49894,Wells,Delta,738,Michigan
+49895,Wetmore,Alger,663,Michigan
+49896,Wilson,Menominee,1652,Michigan
+49901,Ahmeek,Keweenaw,387,Michigan
+49902,Alpha,Iron,200,Michigan
+49903,Amasa,Iron,166,Michigan
+49905,Atlantic Mine,Houghton,1613,Michigan
+49908,Baraga,Baraga,3133,Michigan
+49910,Bergland,Ontonagon,440,Michigan
+49911,Bessemer,Gogebic,3035,Michigan
+49912,Bruce Crossing,Ontonagon,1115,Michigan
+49913,Calumet,Houghton,8047,Michigan
+49915,Caspian,Iron,904,Michigan
+49916,Chassell,Houghton,2669,Michigan
+49917,Copper City,Houghton,188,Michigan
+49918,Copper Harbor,Keweenaw,75,Michigan
+49919,Covington,Baraga,204,Michigan
+49920,Crystal Falls,Iron,4460,Michigan
+49921,Dodgeville,Houghton,413,Michigan
+49922,Dollar Bay,Houghton,1213,Michigan
+49925,Ewen,Ontonagon,662,Michigan
+49927,Gaastra,Iron,484,Michigan
+49929,Greenland,Ontonagon,159,Michigan
+49930,Hancock,Houghton,6185,Michigan
+49931,Houghton,Houghton,9006,Michigan
+49934,Hubbell,Houghton,907,Michigan
+49935,Iron River,Iron,5864,Michigan
+49938,Ironwood,Gogebic,8936,Michigan
+49942,Kearsarge,Houghton,250,Michigan
+49945,Lake Linden,Houghton,2669,Michigan
+49946,Lanse,Baraga,4148,Michigan
+49947,Marenisco,Gogebic,1158,Michigan
+49948,Mass City,Ontonagon,688,Michigan
+49950,Mohawk,Keweenaw,1419,Michigan
+49952,Nisula,Houghton,73,Michigan
+49953,Ontonagon,Ontonagon,3320,Michigan
+49955,Painesdale,Houghton,685,Michigan
+49958,Pelkie,Houghton,1286,Michigan
+49959,Ramsay,Gogebic,384,Michigan
+49960,Rockland,Ontonagon,267,Michigan
+49961,Sidnaw,Houghton,141,Michigan
+49962,Skanee,Baraga,248,Michigan
+49963,South Range,Houghton,705,Michigan
+49964,Stambaugh,Iron,1017,Michigan
+49965,Toivola,Houghton,437,Michigan
+49967,Trout Creek,Ontonagon,444,Michigan
+49968,Wakefield,Gogebic,2488,Michigan
+49969,Watersmeet,Gogebic,1486,Michigan
+49970,Watton,Baraga,360,Michigan
+49971,White Pine,Ontonagon,628,Michigan

@@ -67,7 +67,8 @@
             this.txtUser.Name = "txtUser";
             this.txtUser.Size = new System.Drawing.Size(171, 20);
             this.txtUser.TabIndex = 2;
-            this.txtUser.Text = "root";
+            this.txtUser.Text = "carl";
+            this.txtUser.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.enter);
             // 
             // txtPass
             // 
@@ -77,7 +78,7 @@
             this.txtPass.PasswordChar = '*';
             this.txtPass.Size = new System.Drawing.Size(171, 20);
             this.txtPass.TabIndex = 3;
-            this.txtPass.Text = "Xochilt8";
+            this.txtPass.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.enter);
             // 
             // button1
             // 
@@ -139,6 +140,7 @@
             this.Name = "formLogin";
             this.Text = "Login";
             this.Load += new System.EventHandler(this.Form1_Load);
+            this.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.enter);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

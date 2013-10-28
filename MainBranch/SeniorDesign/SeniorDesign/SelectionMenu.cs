@@ -6,11 +6,12 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
-
+//#################test
 namespace SeniorDesign
 {
     public partial class SelectionMenu : Form
     {
+        
         public SelectionMenu()
         {
             InitializeComponent();
@@ -18,12 +19,33 @@ namespace SeniorDesign
 
         private void OKbutton_Click(object sender, EventArgs e)
         {
-            if (radioButton3.Checked)
+            
+                if (rbMain.Checked)
+                {
+                    MainView SF = new MainView();
+                    SF.Show();
+                    this.Hide();
+                }
+
+        }
+
+        private void SelectionMenu_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void keypress(object sender, KeyPressEventArgs e)
+        {
+            if (e.KeyChar == (char)Keys.Enter)
             {
-                MainView SF = new MainView();
-                SF.Show();
-                this.Hide();
+                if (rbMain.Checked)
+                {
+                    MainView SF = new MainView();
+                    SF.Show();
+                    this.Hide();
+                }
             }
+
         }
 
        

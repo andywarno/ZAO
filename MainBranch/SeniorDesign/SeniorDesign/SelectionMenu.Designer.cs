@@ -29,9 +29,9 @@
         private void InitializeComponent()
         {
             this.TitleLabel = new System.Windows.Forms.Label();
-            this.radioButton1 = new System.Windows.Forms.RadioButton();
-            this.radioButton2 = new System.Windows.Forms.RadioButton();
-            this.radioButton3 = new System.Windows.Forms.RadioButton();
+            this.rbNewCrimeSheet = new System.Windows.Forms.RadioButton();
+            this.rbFinish = new System.Windows.Forms.RadioButton();
+            this.rbMain = new System.Windows.Forms.RadioButton();
             this.OKbutton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
@@ -45,38 +45,43 @@
             this.TitleLabel.TabIndex = 0;
             this.TitleLabel.Text = "SELECT OPTION";
             // 
-            // radioButton1
+            // rbNewCrimeSheet
             // 
-            this.radioButton1.AutoSize = true;
-            this.radioButton1.Font = new System.Drawing.Font("Arial Narrow", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton1.Location = new System.Drawing.Point(43, 82);
-            this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(146, 19);
-            this.radioButton1.TabIndex = 2;
-            this.radioButton1.Text = "START NEW CRIME SHEET";
-            this.radioButton1.UseVisualStyleBackColor = true;
+            this.rbNewCrimeSheet.AutoSize = true;
+            this.rbNewCrimeSheet.Checked = true;
+            this.rbNewCrimeSheet.Font = new System.Drawing.Font("Arial Narrow", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rbNewCrimeSheet.Location = new System.Drawing.Point(43, 82);
+            this.rbNewCrimeSheet.Name = "rbNewCrimeSheet";
+            this.rbNewCrimeSheet.Size = new System.Drawing.Size(146, 19);
+            this.rbNewCrimeSheet.TabIndex = 2;
+            this.rbNewCrimeSheet.TabStop = true;
+            this.rbNewCrimeSheet.Text = "START NEW CRIME SHEET";
+            this.rbNewCrimeSheet.UseVisualStyleBackColor = true;
+            this.rbNewCrimeSheet.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.keypress);
             // 
-            // radioButton2
+            // rbFinish
             // 
-            this.radioButton2.AutoSize = true;
-            this.radioButton2.Font = new System.Drawing.Font("Arial Narrow", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton2.Location = new System.Drawing.Point(43, 108);
-            this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(139, 19);
-            this.radioButton2.TabIndex = 3;
-            this.radioButton2.Text = "FINISH PREVIOUS ENTRY";
-            this.radioButton2.UseVisualStyleBackColor = true;
+            this.rbFinish.AutoSize = true;
+            this.rbFinish.Font = new System.Drawing.Font("Arial Narrow", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rbFinish.Location = new System.Drawing.Point(43, 108);
+            this.rbFinish.Name = "rbFinish";
+            this.rbFinish.Size = new System.Drawing.Size(139, 19);
+            this.rbFinish.TabIndex = 3;
+            this.rbFinish.Text = "FINISH PREVIOUS ENTRY";
+            this.rbFinish.UseVisualStyleBackColor = true;
+            this.rbFinish.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.keypress);
             // 
-            // radioButton3
+            // rbMain
             // 
-            this.radioButton3.AutoSize = true;
-            this.radioButton3.Font = new System.Drawing.Font("Arial Narrow", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton3.Location = new System.Drawing.Point(43, 134);
-            this.radioButton3.Name = "radioButton3";
-            this.radioButton3.Size = new System.Drawing.Size(200, 19);
-            this.radioButton3.TabIndex = 4;
-            this.radioButton3.Text = "SEARCH CRIME ANALYSIS WORKBOOK";
-            this.radioButton3.UseVisualStyleBackColor = true;
+            this.rbMain.AutoSize = true;
+            this.rbMain.Font = new System.Drawing.Font("Arial Narrow", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rbMain.Location = new System.Drawing.Point(43, 134);
+            this.rbMain.Name = "rbMain";
+            this.rbMain.Size = new System.Drawing.Size(200, 19);
+            this.rbMain.TabIndex = 4;
+            this.rbMain.Text = "SEARCH CRIME ANALYSIS WORKBOOK";
+            this.rbMain.UseVisualStyleBackColor = true;
+            this.rbMain.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.keypress);
             // 
             // OKbutton
             // 
@@ -96,13 +101,14 @@
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(290, 253);
             this.Controls.Add(this.OKbutton);
-            this.Controls.Add(this.radioButton3);
-            this.Controls.Add(this.radioButton2);
-            this.Controls.Add(this.radioButton1);
+            this.Controls.Add(this.rbMain);
+            this.Controls.Add(this.rbFinish);
+            this.Controls.Add(this.rbNewCrimeSheet);
             this.Controls.Add(this.TitleLabel);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "SelectionMenu";
             this.Text = "Selection";
+            this.Load += new System.EventHandler(this.SelectionMenu_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -111,9 +117,9 @@
         #endregion
 
         private System.Windows.Forms.Label TitleLabel;
-        private System.Windows.Forms.RadioButton radioButton1;
-        private System.Windows.Forms.RadioButton radioButton2;
-        private System.Windows.Forms.RadioButton radioButton3;
+        private System.Windows.Forms.RadioButton rbNewCrimeSheet;
+        private System.Windows.Forms.RadioButton rbFinish;
+        private System.Windows.Forms.RadioButton rbMain;
         private System.Windows.Forms.Button OKbutton;
     }
 }

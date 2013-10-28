@@ -4,53 +4,148 @@ using System.Linq;
 using System.Text;
 using System.Data;
 using MySql.Data;
-using MySql.Data.MySqlClient;  
+using MySql.Data.MySqlClient;
+using System.Windows.Forms;  
 namespace SeniorDesign
 {
     class DBConnection
     {
-        Log log;
+        private static MySqlConnection connection;
+        private static string uid;
+        private static string password;
 
-        string user, pass;
-        public static MySqlConnection conn;
-        public DBConnection(string user, string pass)
+        private static void Initialize()
         {
-            log = new Log();
-            this.user = user;
-            this.pass = pass;
+            uid = "root";
+            password = "Xochilt8";
+            string connectionString;
+            connectionString = "server=localhost;user=" + uid + ";database=crimereport;" +
+                             "port=3306;password=" + password + ";";
+
+            connection = new MySqlConnection(connectionString);
         }
-        public bool _ConnectToDB()
-        {
-            bool connection = true;
-            string connStr = "server=localhost;user=" + user + ";database=crimereport;" +
-                             "port=3306;password=" + pass + ";";
-            
-            log.WriteLine("Connecting to MySQL...");
 
+        private static bool OpenConnection()
+        {
+            Initialize();
             try
             {
-                conn = new MySqlConnection(connStr);
-                conn.Open();
-
-                //log.WriteLine(string.Format("OK, the DB Connection is {0}\n", conn.State.ToString()));
-                
-                Console.WriteLine("See WorldLoglog.txt in top-level project folder");
-
+                connection.Open();
+                return true;
             }
-            catch (Exception ex)
+            catch (MySqlException ex)
             {
-                log.WriteLine("\r\nERROR, DB Connection didn't work - no trans done");
-                log.WriteLine(ex.ToString());
-                connection = false;
-            }
-            log.WriteLine("\r\nEXITING PROGRAM");
-            log.Close();
-            return connection;
+                switch (ex.Number)
+                {
+                    case 0:
+                        MessageBox.Show("Cannot connect to server.  Contact administrator");
+                        break;
 
+                    case 1045:
+                        MessageBox.Show("Invalid username/password, please try again");
+                        break;
+                }
+                return false;
+            }
         }
-        public static void CloseDBConnection()
+
+        private static bool CloseConnection()
         {
-            conn.Close();
+            try
+            {
+                connection.Close();
+                return true;
+            }
+            catch (MySqlException ex)
+            {
+                MessageBox.Show(ex.Message);
+                return false;
+            }
+        }
+
+        public static void Insert(string query)
+        {
+            if (OpenConnection() == true)
+            {
+                try
+                {
+                    MySqlCommand cmd = new MySqlCommand(query, connection);
+                    cmd.ExecuteNonQuery();
+                    CloseConnection();
+                }
+                catch (Exception e)
+                {
+                    MessageBox.Show(e.ToString());
+                }
+            }
+        }
+        public static bool CompaintNumberCheck(string num)
+        {
+            string query = "SELECT * FROM reports WHERE ComplaintNum='" + num + "'";
+            List<string> temp = Select(query);
+            if (temp.Count == 0)
+                return true;
+            else
+                return false;
+        }
+        public static List<string> Select(string query)
+        {
+            List<string> input = new List<string>();
+            MySqlDataReader myReader = null;
+            if (OpenConnection() == true)
+            {
+
+                MySqlCommand cmd = new MySqlCommand(query, connection);
+                myReader = cmd.ExecuteReader();
+                while (myReader.Read())
+                {
+                    input.Add(myReader.GetString(0));
+                }
+                CloseConnection();
+            }
+            return input;
+        }
+
+        public static MySqlDataReader SelectAll(string query)
+        {
+            MySqlDataReader myReader = null;
+            if (OpenConnection() == true)
+            {
+                try
+                {
+                    MySqlCommand cmd = new MySqlCommand(query, connection);
+                    myReader = cmd.ExecuteReader();
+                    //CloseConnection();
+                }
+                catch (Exception)
+                {
+
+                }
+            }
+            return myReader;
+        }
+
+        public static void Update(string query)
+        {
+            if (OpenConnection() == true)
+            {
+                MySqlCommand cmd = new MySqlCommand();
+                cmd.CommandText = query;
+                cmd.Connection = connection;
+                cmd.ExecuteNonQuery();
+                CloseConnection();
+            }
+        }
+
+        //Delete statement
+        public static void Delete(string query)
+        {
+            if (OpenConnection() == true)
+            {
+                MySqlCommand cmd = new MySqlCommand(query, connection);
+                cmd.ExecuteNonQuery();
+                CloseConnection();
+            }
         }
     }
 }

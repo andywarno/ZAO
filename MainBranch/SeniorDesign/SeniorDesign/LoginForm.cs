@@ -18,27 +18,39 @@ namespace SeniorDesign
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
+            //load previous user
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            DBConnection dbConn = new DBConnection(txtUser.Text, txtPass.Text);
-            if (dbConn._ConnectToDB())
+            login();
+        }
+
+        private void TitleLabel_Click(object sender, EventArgs e)
+        {
+        }
+
+        private void enter(object sender, KeyPressEventArgs e)
+        {
+            if (e.KeyChar == (char)13)//enter
             {
+                login();
+            }
+        }
+        private void login()
+        {
+            if (CurrentUser.checkPassword(txtUser.Text, txtPass.Text))
+            {
+                CurrentUser._user = txtUser.Text;
+                CurrentUser._pass = txtPass.Text;
                 SelectionMenu SM = new SelectionMenu();
                 SM.Show();
-                //MainView mv = new MainView();
-                //mv.Show();
                 this.Hide();
             }
             else
                 MessageBox.Show("Access Denied: Invalid Username/Password");
         }
 
-        private void TitleLabel_Click(object sender, EventArgs e)
-        {
 
-        }
     }
 }

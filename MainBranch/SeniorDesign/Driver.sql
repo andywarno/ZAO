@@ -1,7 +1,2 @@
-##############################################################################
-# WorldDriver.sql   (a script file)
-##############################################################################
-
-source C:\Users\dave\Desktop\SeniorDesign\tableScript.sql
-
-source C:\Users\dave\Desktop\SeniorDesign\InsertValues.sql
+source C:\Users\dave\My Documents\ZAO\MainBranch\SeniorDesign\tableScript.sql
+source C:\Users\dave\My Documents\ZAO\MainBranch\SeniorDesign\InsertValuesModified3.sql
