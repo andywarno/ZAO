@@ -360,6 +360,7 @@ namespace SeniorDesign
             {
                 query = "";
                 query = "SELECT Date, ComplaintNum, Name, Address, Zip, CrimeType, BusinessName,Remarks Status FROM reports WHERE" +
+                " ComplaintNum='" + search + "' OR" +
                 " Name LIKE '%" + search + "%' OR" +
                 " Address LIKE '%" + search + "%' OR" +
                 " BusinessName LIKE '%" + search + "%' OR" +

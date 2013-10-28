@@ -78,14 +78,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SeniorDesign.exe" size="139264">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SeniorDesign.exe" size="139776">
       <assemblyIdentity name="SeniorDesign" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>xxlWkAJyPuO6dVs58DoFlnCKyr0=</dsig:DigestValue>
+        <dsig:DigestValue>NT2G0q8ZmVQf01KcPHHc3d1xkkY=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

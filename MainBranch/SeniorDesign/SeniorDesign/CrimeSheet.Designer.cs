@@ -85,6 +85,7 @@
             this.CrimeButton = new System.Windows.Forms.Button();
             this.VictimButton = new System.Windows.Forms.Button();
             this.cb7 = new System.Windows.Forms.ComboBox();
+            this.label3 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.BHPDLogo)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
@@ -362,6 +363,7 @@
             // 
             // CrimeInfoPanel
             // 
+            this.CrimeInfoPanel.Controls.Add(this.label3);
             this.CrimeInfoPanel.Controls.Add(this.cb7);
             this.CrimeInfoPanel.Controls.Add(this.label5);
             this.CrimeInfoPanel.Controls.Add(this.CrimeInfoEnterButton);
@@ -675,6 +677,17 @@
             this.cb7.Size = new System.Drawing.Size(252, 21);
             this.cb7.TabIndex = 18;
             // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.Crimson;
+            this.label3.Location = new System.Drawing.Point(139, 14);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(15, 20);
+            this.label3.TabIndex = 24;
+            this.label3.Text = "*";
+            // 
             // CrimeSheet
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -762,6 +775,7 @@
         private System.Windows.Forms.DateTimePicker dtpCrime;
         private System.Windows.Forms.CheckedListBox slbAssist;
         private System.Windows.Forms.ComboBox cb7;
+        private System.Windows.Forms.Label label3;
 
     }
 }
