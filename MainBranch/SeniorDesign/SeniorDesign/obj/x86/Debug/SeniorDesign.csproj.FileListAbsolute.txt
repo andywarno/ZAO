@@ -56,3 +56,4 @@ C:\Users\dave\Documents\ZAO\MainBranch\SeniorDesign\SeniorDesign\bin\Debug\GMap.
 C:\Users\dave\Documents\ZAO\MainBranch\SeniorDesign\SeniorDesign\bin\Debug\GMap.NET.WindowsForms.dll
 C:\Users\dave\Documents\ZAO\MainBranch\SeniorDesign\SeniorDesign\bin\Debug\GMap.NET.Core.xml
 C:\Users\dave\Documents\ZAO\MainBranch\SeniorDesign\SeniorDesign\bin\Debug\GMap.NET.WindowsForms.xml
+C:\Users\dave\Documents\ZAO\MainBranch\SeniorDesign\SeniorDesign\obj\x86\Debug\SeniorDesign.DepartmentInfo.resources

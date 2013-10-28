@@ -371,6 +371,13 @@ namespace SeniorDesign
 
             fillDataGrid(query);
         }
+
+        private void btnDepInfo_Click(object sender, EventArgs e)
+        {
+            DepartmentInfo di = new DepartmentInfo();
+            this.Hide();
+            di.Show();
+        }
         
     }
 }
