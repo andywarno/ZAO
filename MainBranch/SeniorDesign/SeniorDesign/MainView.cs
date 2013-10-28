@@ -17,6 +17,7 @@ namespace SeniorDesign
 {
     public partial class MainView : Form
     {
+        const string depInfo = "..//..//..//DepartmentInfo.txt";
         public static List<string[]> rows;
         private static string query, start, end;
         static bool unauthorized;
@@ -45,6 +46,20 @@ namespace SeniorDesign
             refreshDate();
             fillExtraFields();
             addCrimeTypes();
+            SetDepartmentInfo();
+        }
+        private void SetDepartmentInfo()
+        {
+            if (File.Exists(depInfo))
+            {
+                using (StreamReader sr = new StreamReader(depInfo))
+                {
+                    string[] input = sr.ReadLine().Split(',');
+                    lblDepName.Text = input[0];
+                    lblDepAddy.Text = input[1];
+                    lblDepZip.Text = input[2];
+                }
+            }
         }
         private void addCrimeTypes()
         {

@@ -68,6 +68,7 @@ namespace SeniorDesign
         {
             string query = "SELECT username, level FROM users;";
             DataTable dt = new DataTable();
+            slbAssist.Items.Add("");
             try
             {
                 dt.Load(DBConnection.SelectAll(query));
@@ -82,7 +83,6 @@ namespace SeniorDesign
                 Console.WriteLine(ex.ToString());
                 return;
             }
-            slbAssist.Items[0] = "";
         }
 
         private void VictimButton_Click_1(object sender, EventArgs e)

@@ -31,16 +31,13 @@
             this.label1 = new System.Windows.Forms.Label();
             this.txtName = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
             this.txtAddress = new System.Windows.Forms.TextBox();
-            this.txtCity = new System.Windows.Forms.TextBox();
             this.txtZip = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.btnBrowse = new System.Windows.Forms.Button();
             this.btnSave = new System.Windows.Forms.Button();
-            this.cbState = new System.Windows.Forms.ComboBox();
+            this.lblCity = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -68,24 +65,6 @@
             this.label2.TabIndex = 2;
             this.label2.Text = "Address:";
             // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(113, 133);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(27, 13);
-            this.label3.TabIndex = 3;
-            this.label3.Text = "City:";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(278, 133);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(35, 13);
-            this.label4.TabIndex = 4;
-            this.label4.Text = "State:";
-            // 
             // txtAddress
             // 
             this.txtAddress.Location = new System.Drawing.Point(146, 87);
@@ -93,24 +72,18 @@
             this.txtAddress.Size = new System.Drawing.Size(363, 20);
             this.txtAddress.TabIndex = 5;
             // 
-            // txtCity
-            // 
-            this.txtCity.Location = new System.Drawing.Point(146, 126);
-            this.txtCity.Name = "txtCity";
-            this.txtCity.Size = new System.Drawing.Size(126, 20);
-            this.txtCity.TabIndex = 6;
-            // 
             // txtZip
             // 
-            this.txtZip.Location = new System.Drawing.Point(409, 126);
+            this.txtZip.Location = new System.Drawing.Point(146, 129);
             this.txtZip.Name = "txtZip";
             this.txtZip.Size = new System.Drawing.Size(100, 20);
             this.txtZip.TabIndex = 9;
+            this.txtZip.TextChanged += new System.EventHandler(this.searchZip);
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(378, 133);
+            this.label5.Location = new System.Drawing.Point(115, 136);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(25, 13);
             this.label5.TabIndex = 8;
@@ -119,7 +92,7 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(119, 190);
+            this.label6.Location = new System.Drawing.Point(115, 165);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(76, 13);
             this.label6.TabIndex = 10;
@@ -127,7 +100,7 @@
             // 
             // btnBrowse
             // 
-            this.btnBrowse.Location = new System.Drawing.Point(201, 185);
+            this.btnBrowse.Location = new System.Drawing.Point(197, 160);
             this.btnBrowse.Name = "btnBrowse";
             this.btnBrowse.Size = new System.Drawing.Size(75, 23);
             this.btnBrowse.TabIndex = 11;
@@ -144,34 +117,32 @@
             this.btnSave.UseVisualStyleBackColor = true;
             this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
             // 
-            // cbState
+            // lblCity
             // 
-            this.cbState.FormattingEnabled = true;
-            this.cbState.Location = new System.Drawing.Point(309, 125);
-            this.cbState.Name = "cbState";
-            this.cbState.Size = new System.Drawing.Size(63, 21);
-            this.cbState.TabIndex = 13;
+            this.lblCity.AutoSize = true;
+            this.lblCity.Location = new System.Drawing.Point(289, 132);
+            this.lblCity.Name = "lblCity";
+            this.lblCity.Size = new System.Drawing.Size(0, 13);
+            this.lblCity.TabIndex = 13;
             // 
             // DepartmentInfo
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(564, 280);
-            this.Controls.Add(this.cbState);
+            this.Controls.Add(this.lblCity);
             this.Controls.Add(this.btnSave);
             this.Controls.Add(this.btnBrowse);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.txtZip);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.txtCity);
             this.Controls.Add(this.txtAddress);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.txtName);
             this.Controls.Add(this.label1);
             this.Name = "DepartmentInfo";
             this.Text = "DepartmentInfo";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.close);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -182,15 +153,12 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox txtName;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox txtAddress;
-        private System.Windows.Forms.TextBox txtCity;
         private System.Windows.Forms.TextBox txtZip;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Button btnBrowse;
         private System.Windows.Forms.Button btnSave;
-        private System.Windows.Forms.ComboBox cbState;
+        private System.Windows.Forms.Label lblCity;
     }
 }

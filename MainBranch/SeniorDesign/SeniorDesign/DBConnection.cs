@@ -99,7 +99,10 @@ namespace SeniorDesign
                 myReader = cmd.ExecuteReader();
                 while (myReader.Read())
                 {
-                    input.Add(myReader.GetString(0));
+                    for (int i = 0; i < myReader.FieldCount; i++)
+                    {
+                        input.Add(myReader.GetString(i));
+                    }
                 }
                 CloseConnection();
             }

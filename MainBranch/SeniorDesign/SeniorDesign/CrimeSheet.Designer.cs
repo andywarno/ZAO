@@ -33,8 +33,24 @@
             this.BHPDLogo = new System.Windows.Forms.PictureBox();
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
             this.SearchButton = new System.Windows.Forms.Button();
+            this.CrimeInfoPanel = new System.Windows.Forms.Panel();
+            this.label3 = new System.Windows.Forms.Label();
+            this.cb7 = new System.Windows.Forms.ComboBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.CrimeInfoEnterButton = new System.Windows.Forms.Button();
+            this.PropRecoveredLbl = new System.Windows.Forms.Label();
+            this.PropValueLbl = new System.Windows.Forms.Label();
+            this.PropDescripLbl = new System.Windows.Forms.Label();
+            this.CrimeTimeLbl = new System.Windows.Forms.Label();
+            this.AreaLbl = new System.Windows.Forms.Label();
+            this.CrimeTypeLbl = new System.Windows.Forms.Label();
+            this.tb13 = new System.Windows.Forms.TextBox();
+            this.tb10 = new System.Windows.Forms.TextBox();
+            this.tb12 = new System.Windows.Forms.TextBox();
+            this.tb11 = new System.Windows.Forms.TextBox();
+            this.tb9 = new System.Windows.Forms.TextBox();
+            this.tb8 = new System.Windows.Forms.TextBox();
             this.InvestigationPanel = new System.Windows.Forms.Panel();
-            this.slbAssist = new System.Windows.Forms.CheckedListBox();
             this.label10 = new System.Windows.Forms.Label();
             this.InvestigationPanelEnterButton = new System.Windows.Forms.Button();
             this.RemarksLbl = new System.Windows.Forms.Label();
@@ -54,21 +70,6 @@
             this.tb16 = new System.Windows.Forms.TextBox();
             this.tb15 = new System.Windows.Forms.TextBox();
             this.tb14 = new System.Windows.Forms.TextBox();
-            this.CrimeInfoPanel = new System.Windows.Forms.Panel();
-            this.label5 = new System.Windows.Forms.Label();
-            this.CrimeInfoEnterButton = new System.Windows.Forms.Button();
-            this.PropRecoveredLbl = new System.Windows.Forms.Label();
-            this.PropValueLbl = new System.Windows.Forms.Label();
-            this.PropDescripLbl = new System.Windows.Forms.Label();
-            this.CrimeTimeLbl = new System.Windows.Forms.Label();
-            this.AreaLbl = new System.Windows.Forms.Label();
-            this.CrimeTypeLbl = new System.Windows.Forms.Label();
-            this.tb13 = new System.Windows.Forms.TextBox();
-            this.tb10 = new System.Windows.Forms.TextBox();
-            this.tb12 = new System.Windows.Forms.TextBox();
-            this.tb11 = new System.Windows.Forms.TextBox();
-            this.tb9 = new System.Windows.Forms.TextBox();
-            this.tb8 = new System.Windows.Forms.TextBox();
             this.VictimInfoPanel = new System.Windows.Forms.Panel();
             this.dtpCrime = new System.Windows.Forms.DateTimePicker();
             this.label8 = new System.Windows.Forms.Label();
@@ -84,15 +85,14 @@
             this.InvestigationButton = new System.Windows.Forms.Button();
             this.CrimeButton = new System.Windows.Forms.Button();
             this.VictimButton = new System.Windows.Forms.Button();
-            this.cb7 = new System.Windows.Forms.ComboBox();
-            this.label3 = new System.Windows.Forms.Label();
+            this.slbAssist = new System.Windows.Forms.CheckedListBox();
             ((System.ComponentModel.ISupportInitialize)(this.BHPDLogo)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
             this.splitContainer1.SuspendLayout();
-            this.InvestigationPanel.SuspendLayout();
             this.CrimeInfoPanel.SuspendLayout();
+            this.InvestigationPanel.SuspendLayout();
             this.VictimInfoPanel.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -128,8 +128,8 @@
             // 
             // splitContainer1.Panel2
             // 
-            this.splitContainer1.Panel2.Controls.Add(this.CrimeInfoPanel);
             this.splitContainer1.Panel2.Controls.Add(this.InvestigationPanel);
+            this.splitContainer1.Panel2.Controls.Add(this.CrimeInfoPanel);
             this.splitContainer1.Panel2.Controls.Add(this.VictimInfoPanel);
             this.splitContainer1.Panel2.Controls.Add(this.ReviewButton);
             this.splitContainer1.Panel2.Controls.Add(this.InvestigationButton);
@@ -157,210 +157,6 @@
             this.SearchButton.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.SearchButton.UseVisualStyleBackColor = false;
             // 
-            // InvestigationPanel
-            // 
-            this.InvestigationPanel.Controls.Add(this.slbAssist);
-            this.InvestigationPanel.Controls.Add(this.label10);
-            this.InvestigationPanel.Controls.Add(this.InvestigationPanelEnterButton);
-            this.InvestigationPanel.Controls.Add(this.RemarksLbl);
-            this.InvestigationPanel.Controls.Add(this.DtcAssistantsLbl);
-            this.InvestigationPanel.Controls.Add(this.ComplaintNoLbl);
-            this.InvestigationPanel.Controls.Add(this.BusinessNameLbl);
-            this.InvestigationPanel.Controls.Add(this.PrintsDNALbl);
-            this.InvestigationPanel.Controls.Add(this.ArrestsMadeLbl);
-            this.InvestigationPanel.Controls.Add(this.GangRelatedLbl);
-            this.InvestigationPanel.Controls.Add(this.ChargeTypeLbl);
-            this.InvestigationPanel.Controls.Add(this.CaseStatusLbl);
-            this.InvestigationPanel.Controls.Add(this.tb22);
-            this.InvestigationPanel.Controls.Add(this.tb18);
-            this.InvestigationPanel.Controls.Add(this.tb21);
-            this.InvestigationPanel.Controls.Add(this.tb20);
-            this.InvestigationPanel.Controls.Add(this.tb17);
-            this.InvestigationPanel.Controls.Add(this.tb16);
-            this.InvestigationPanel.Controls.Add(this.tb15);
-            this.InvestigationPanel.Controls.Add(this.tb14);
-            this.InvestigationPanel.Location = new System.Drawing.Point(24, 45);
-            this.InvestigationPanel.Name = "InvestigationPanel";
-            this.InvestigationPanel.Size = new System.Drawing.Size(504, 326);
-            this.InvestigationPanel.TabIndex = 17;
-            // 
-            // slbAssist
-            // 
-            this.slbAssist.FormattingEnabled = true;
-            this.slbAssist.Location = new System.Drawing.Point(224, 143);
-            this.slbAssist.Name = "slbAssist";
-            this.slbAssist.Size = new System.Drawing.Size(252, 19);
-            this.slbAssist.TabIndex = 24;
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.ForeColor = System.Drawing.Color.Crimson;
-            this.label10.Location = new System.Drawing.Point(126, 118);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(15, 20);
-            this.label10.TabIndex = 23;
-            this.label10.Text = "*";
-            // 
-            // InvestigationPanelEnterButton
-            // 
-            this.InvestigationPanelEnterButton.Font = new System.Drawing.Font("Arial Narrow", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.InvestigationPanelEnterButton.Location = new System.Drawing.Point(403, 299);
-            this.InvestigationPanelEnterButton.Name = "InvestigationPanelEnterButton";
-            this.InvestigationPanelEnterButton.Size = new System.Drawing.Size(75, 23);
-            this.InvestigationPanelEnterButton.TabIndex = 18;
-            this.InvestigationPanelEnterButton.Text = "ENTER";
-            this.InvestigationPanelEnterButton.UseVisualStyleBackColor = true;
-            this.InvestigationPanelEnterButton.Click += new System.EventHandler(this.Submit);
-            // 
-            // RemarksLbl
-            // 
-            this.RemarksLbl.AutoSize = true;
-            this.RemarksLbl.Font = new System.Drawing.Font("Arial Narrow", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.RemarksLbl.Location = new System.Drawing.Point(163, 221);
-            this.RemarksLbl.Name = "RemarksLbl";
-            this.RemarksLbl.Size = new System.Drawing.Size(56, 15);
-            this.RemarksLbl.TabIndex = 17;
-            this.RemarksLbl.Text = "REMARKS:";
-            // 
-            // DtcAssistantsLbl
-            // 
-            this.DtcAssistantsLbl.AutoSize = true;
-            this.DtcAssistantsLbl.Font = new System.Drawing.Font("Arial Narrow", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.DtcAssistantsLbl.Location = new System.Drawing.Point(55, 147);
-            this.DtcAssistantsLbl.Name = "DtcAssistantsLbl";
-            this.DtcAssistantsLbl.Size = new System.Drawing.Size(164, 15);
-            this.DtcAssistantsLbl.TabIndex = 16;
-            this.DtcAssistantsLbl.Text = "ASSISTED BY OTHER DETECTIVES:";
-            // 
-            // ComplaintNoLbl
-            // 
-            this.ComplaintNoLbl.AutoSize = true;
-            this.ComplaintNoLbl.Font = new System.Drawing.Font("Arial Narrow", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ComplaintNoLbl.Location = new System.Drawing.Point(138, 122);
-            this.ComplaintNoLbl.Name = "ComplaintNoLbl";
-            this.ComplaintNoLbl.Size = new System.Drawing.Size(81, 15);
-            this.ComplaintNoLbl.TabIndex = 15;
-            this.ComplaintNoLbl.Text = "COMPLAINT NO:";
-            // 
-            // BusinessNameLbl
-            // 
-            this.BusinessNameLbl.AutoSize = true;
-            this.BusinessNameLbl.Font = new System.Drawing.Font("Arial Narrow", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BusinessNameLbl.Location = new System.Drawing.Point(133, 199);
-            this.BusinessNameLbl.Name = "BusinessNameLbl";
-            this.BusinessNameLbl.Size = new System.Drawing.Size(86, 15);
-            this.BusinessNameLbl.TabIndex = 14;
-            this.BusinessNameLbl.Text = "BUSINESS NAME:";
-            // 
-            // PrintsDNALbl
-            // 
-            this.PrintsDNALbl.AutoSize = true;
-            this.PrintsDNALbl.Font = new System.Drawing.Font("Arial Narrow", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.PrintsDNALbl.Location = new System.Drawing.Point(136, 173);
-            this.PrintsDNALbl.Name = "PrintsDNALbl";
-            this.PrintsDNALbl.Size = new System.Drawing.Size(83, 15);
-            this.PrintsDNALbl.TabIndex = 13;
-            this.PrintsDNALbl.Text = "PRINTS OR DNA:";
-            // 
-            // ArrestsMadeLbl
-            // 
-            this.ArrestsMadeLbl.AutoSize = true;
-            this.ArrestsMadeLbl.Font = new System.Drawing.Font("Arial Narrow", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ArrestsMadeLbl.Location = new System.Drawing.Point(136, 96);
-            this.ArrestsMadeLbl.Name = "ArrestsMadeLbl";
-            this.ArrestsMadeLbl.Size = new System.Drawing.Size(83, 15);
-            this.ArrestsMadeLbl.TabIndex = 12;
-            this.ArrestsMadeLbl.Text = "ARRESTS MADE:";
-            // 
-            // GangRelatedLbl
-            // 
-            this.GangRelatedLbl.AutoSize = true;
-            this.GangRelatedLbl.Font = new System.Drawing.Font("Arial Narrow", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.GangRelatedLbl.Location = new System.Drawing.Point(137, 70);
-            this.GangRelatedLbl.Name = "GangRelatedLbl";
-            this.GangRelatedLbl.Size = new System.Drawing.Size(82, 15);
-            this.GangRelatedLbl.TabIndex = 11;
-            this.GangRelatedLbl.Text = "GANG RELATED:";
-            // 
-            // ChargeTypeLbl
-            // 
-            this.ChargeTypeLbl.AutoSize = true;
-            this.ChargeTypeLbl.Font = new System.Drawing.Font("Arial Narrow", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ChargeTypeLbl.Location = new System.Drawing.Point(143, 44);
-            this.ChargeTypeLbl.Name = "ChargeTypeLbl";
-            this.ChargeTypeLbl.Size = new System.Drawing.Size(76, 15);
-            this.ChargeTypeLbl.TabIndex = 10;
-            this.ChargeTypeLbl.Text = "CHARGE TYPE:";
-            // 
-            // CaseStatusLbl
-            // 
-            this.CaseStatusLbl.AutoSize = true;
-            this.CaseStatusLbl.Font = new System.Drawing.Font("Arial Narrow", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CaseStatusLbl.Location = new System.Drawing.Point(144, 18);
-            this.CaseStatusLbl.Name = "CaseStatusLbl";
-            this.CaseStatusLbl.Size = new System.Drawing.Size(75, 15);
-            this.CaseStatusLbl.TabIndex = 9;
-            this.CaseStatusLbl.Text = "CASE STATUS:";
-            // 
-            // tb22
-            // 
-            this.tb22.Location = new System.Drawing.Point(225, 221);
-            this.tb22.Multiline = true;
-            this.tb22.Name = "tb22";
-            this.tb22.Size = new System.Drawing.Size(253, 56);
-            this.tb22.TabIndex = 8;
-            // 
-            // tb18
-            // 
-            this.tb18.Location = new System.Drawing.Point(225, 117);
-            this.tb18.Name = "tb18";
-            this.tb18.Size = new System.Drawing.Size(253, 20);
-            this.tb18.TabIndex = 6;
-            // 
-            // tb21
-            // 
-            this.tb21.Location = new System.Drawing.Point(225, 194);
-            this.tb21.Name = "tb21";
-            this.tb21.Size = new System.Drawing.Size(253, 20);
-            this.tb21.TabIndex = 5;
-            // 
-            // tb20
-            // 
-            this.tb20.Location = new System.Drawing.Point(225, 168);
-            this.tb20.Name = "tb20";
-            this.tb20.Size = new System.Drawing.Size(253, 20);
-            this.tb20.TabIndex = 4;
-            // 
-            // tb17
-            // 
-            this.tb17.Location = new System.Drawing.Point(225, 91);
-            this.tb17.Name = "tb17";
-            this.tb17.Size = new System.Drawing.Size(253, 20);
-            this.tb17.TabIndex = 3;
-            // 
-            // tb16
-            // 
-            this.tb16.Location = new System.Drawing.Point(225, 65);
-            this.tb16.Name = "tb16";
-            this.tb16.Size = new System.Drawing.Size(253, 20);
-            this.tb16.TabIndex = 2;
-            // 
-            // tb15
-            // 
-            this.tb15.Location = new System.Drawing.Point(225, 39);
-            this.tb15.Name = "tb15";
-            this.tb15.Size = new System.Drawing.Size(253, 20);
-            this.tb15.TabIndex = 1;
-            // 
-            // tb14
-            // 
-            this.tb14.Location = new System.Drawing.Point(225, 13);
-            this.tb14.Name = "tb14";
-            this.tb14.Size = new System.Drawing.Size(253, 20);
-            this.tb14.TabIndex = 0;
-            // 
             // CrimeInfoPanel
             // 
             this.CrimeInfoPanel.Controls.Add(this.label3);
@@ -383,6 +179,25 @@
             this.CrimeInfoPanel.Name = "CrimeInfoPanel";
             this.CrimeInfoPanel.Size = new System.Drawing.Size(504, 326);
             this.CrimeInfoPanel.TabIndex = 19;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.Crimson;
+            this.label3.Location = new System.Drawing.Point(139, 14);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(15, 20);
+            this.label3.TabIndex = 24;
+            this.label3.Text = "*";
+            // 
+            // cb7
+            // 
+            this.cb7.FormattingEnabled = true;
+            this.cb7.Location = new System.Drawing.Point(226, 12);
+            this.cb7.Name = "cb7";
+            this.cb7.Size = new System.Drawing.Size(252, 21);
+            this.cb7.TabIndex = 18;
             // 
             // label5
             // 
@@ -506,6 +321,202 @@
             this.tb8.Name = "tb8";
             this.tb8.Size = new System.Drawing.Size(252, 20);
             this.tb8.TabIndex = 1;
+            // 
+            // InvestigationPanel
+            // 
+            this.InvestigationPanel.Controls.Add(this.slbAssist);
+            this.InvestigationPanel.Controls.Add(this.label10);
+            this.InvestigationPanel.Controls.Add(this.InvestigationPanelEnterButton);
+            this.InvestigationPanel.Controls.Add(this.RemarksLbl);
+            this.InvestigationPanel.Controls.Add(this.DtcAssistantsLbl);
+            this.InvestigationPanel.Controls.Add(this.ComplaintNoLbl);
+            this.InvestigationPanel.Controls.Add(this.BusinessNameLbl);
+            this.InvestigationPanel.Controls.Add(this.PrintsDNALbl);
+            this.InvestigationPanel.Controls.Add(this.ArrestsMadeLbl);
+            this.InvestigationPanel.Controls.Add(this.GangRelatedLbl);
+            this.InvestigationPanel.Controls.Add(this.ChargeTypeLbl);
+            this.InvestigationPanel.Controls.Add(this.CaseStatusLbl);
+            this.InvestigationPanel.Controls.Add(this.tb22);
+            this.InvestigationPanel.Controls.Add(this.tb18);
+            this.InvestigationPanel.Controls.Add(this.tb21);
+            this.InvestigationPanel.Controls.Add(this.tb20);
+            this.InvestigationPanel.Controls.Add(this.tb17);
+            this.InvestigationPanel.Controls.Add(this.tb16);
+            this.InvestigationPanel.Controls.Add(this.tb15);
+            this.InvestigationPanel.Controls.Add(this.tb14);
+            this.InvestigationPanel.Location = new System.Drawing.Point(24, 45);
+            this.InvestigationPanel.Name = "InvestigationPanel";
+            this.InvestigationPanel.Size = new System.Drawing.Size(504, 326);
+            this.InvestigationPanel.TabIndex = 17;
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.ForeColor = System.Drawing.Color.Crimson;
+            this.label10.Location = new System.Drawing.Point(126, 118);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(15, 20);
+            this.label10.TabIndex = 23;
+            this.label10.Text = "*";
+            // 
+            // InvestigationPanelEnterButton
+            // 
+            this.InvestigationPanelEnterButton.Font = new System.Drawing.Font("Arial Narrow", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.InvestigationPanelEnterButton.Location = new System.Drawing.Point(403, 299);
+            this.InvestigationPanelEnterButton.Name = "InvestigationPanelEnterButton";
+            this.InvestigationPanelEnterButton.Size = new System.Drawing.Size(75, 23);
+            this.InvestigationPanelEnterButton.TabIndex = 18;
+            this.InvestigationPanelEnterButton.Text = "ENTER";
+            this.InvestigationPanelEnterButton.UseVisualStyleBackColor = true;
+            this.InvestigationPanelEnterButton.Click += new System.EventHandler(this.Submit);
+            // 
+            // RemarksLbl
+            // 
+            this.RemarksLbl.AutoSize = true;
+            this.RemarksLbl.Font = new System.Drawing.Font("Arial Narrow", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.RemarksLbl.Location = new System.Drawing.Point(161, 237);
+            this.RemarksLbl.Name = "RemarksLbl";
+            this.RemarksLbl.Size = new System.Drawing.Size(56, 15);
+            this.RemarksLbl.TabIndex = 17;
+            this.RemarksLbl.Text = "REMARKS:";
+            // 
+            // DtcAssistantsLbl
+            // 
+            this.DtcAssistantsLbl.AutoSize = true;
+            this.DtcAssistantsLbl.Font = new System.Drawing.Font("Arial Narrow", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.DtcAssistantsLbl.Location = new System.Drawing.Point(55, 147);
+            this.DtcAssistantsLbl.Name = "DtcAssistantsLbl";
+            this.DtcAssistantsLbl.Size = new System.Drawing.Size(164, 15);
+            this.DtcAssistantsLbl.TabIndex = 16;
+            this.DtcAssistantsLbl.Text = "ASSISTED BY OTHER DETECTIVES:";
+            // 
+            // ComplaintNoLbl
+            // 
+            this.ComplaintNoLbl.AutoSize = true;
+            this.ComplaintNoLbl.Font = new System.Drawing.Font("Arial Narrow", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ComplaintNoLbl.Location = new System.Drawing.Point(138, 122);
+            this.ComplaintNoLbl.Name = "ComplaintNoLbl";
+            this.ComplaintNoLbl.Size = new System.Drawing.Size(81, 15);
+            this.ComplaintNoLbl.TabIndex = 15;
+            this.ComplaintNoLbl.Text = "COMPLAINT NO:";
+            // 
+            // BusinessNameLbl
+            // 
+            this.BusinessNameLbl.AutoSize = true;
+            this.BusinessNameLbl.Font = new System.Drawing.Font("Arial Narrow", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BusinessNameLbl.Location = new System.Drawing.Point(131, 215);
+            this.BusinessNameLbl.Name = "BusinessNameLbl";
+            this.BusinessNameLbl.Size = new System.Drawing.Size(86, 15);
+            this.BusinessNameLbl.TabIndex = 14;
+            this.BusinessNameLbl.Text = "BUSINESS NAME:";
+            // 
+            // PrintsDNALbl
+            // 
+            this.PrintsDNALbl.AutoSize = true;
+            this.PrintsDNALbl.Font = new System.Drawing.Font("Arial Narrow", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PrintsDNALbl.Location = new System.Drawing.Point(134, 189);
+            this.PrintsDNALbl.Name = "PrintsDNALbl";
+            this.PrintsDNALbl.Size = new System.Drawing.Size(83, 15);
+            this.PrintsDNALbl.TabIndex = 13;
+            this.PrintsDNALbl.Text = "PRINTS OR DNA:";
+            // 
+            // ArrestsMadeLbl
+            // 
+            this.ArrestsMadeLbl.AutoSize = true;
+            this.ArrestsMadeLbl.Font = new System.Drawing.Font("Arial Narrow", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ArrestsMadeLbl.Location = new System.Drawing.Point(136, 96);
+            this.ArrestsMadeLbl.Name = "ArrestsMadeLbl";
+            this.ArrestsMadeLbl.Size = new System.Drawing.Size(83, 15);
+            this.ArrestsMadeLbl.TabIndex = 12;
+            this.ArrestsMadeLbl.Text = "ARRESTS MADE:";
+            // 
+            // GangRelatedLbl
+            // 
+            this.GangRelatedLbl.AutoSize = true;
+            this.GangRelatedLbl.Font = new System.Drawing.Font("Arial Narrow", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.GangRelatedLbl.Location = new System.Drawing.Point(137, 70);
+            this.GangRelatedLbl.Name = "GangRelatedLbl";
+            this.GangRelatedLbl.Size = new System.Drawing.Size(82, 15);
+            this.GangRelatedLbl.TabIndex = 11;
+            this.GangRelatedLbl.Text = "GANG RELATED:";
+            // 
+            // ChargeTypeLbl
+            // 
+            this.ChargeTypeLbl.AutoSize = true;
+            this.ChargeTypeLbl.Font = new System.Drawing.Font("Arial Narrow", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ChargeTypeLbl.Location = new System.Drawing.Point(143, 44);
+            this.ChargeTypeLbl.Name = "ChargeTypeLbl";
+            this.ChargeTypeLbl.Size = new System.Drawing.Size(76, 15);
+            this.ChargeTypeLbl.TabIndex = 10;
+            this.ChargeTypeLbl.Text = "CHARGE TYPE:";
+            // 
+            // CaseStatusLbl
+            // 
+            this.CaseStatusLbl.AutoSize = true;
+            this.CaseStatusLbl.Font = new System.Drawing.Font("Arial Narrow", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CaseStatusLbl.Location = new System.Drawing.Point(144, 18);
+            this.CaseStatusLbl.Name = "CaseStatusLbl";
+            this.CaseStatusLbl.Size = new System.Drawing.Size(75, 15);
+            this.CaseStatusLbl.TabIndex = 9;
+            this.CaseStatusLbl.Text = "CASE STATUS:";
+            // 
+            // tb22
+            // 
+            this.tb22.Location = new System.Drawing.Point(223, 237);
+            this.tb22.Multiline = true;
+            this.tb22.Name = "tb22";
+            this.tb22.Size = new System.Drawing.Size(253, 56);
+            this.tb22.TabIndex = 8;
+            // 
+            // tb18
+            // 
+            this.tb18.Location = new System.Drawing.Point(225, 117);
+            this.tb18.Name = "tb18";
+            this.tb18.Size = new System.Drawing.Size(253, 20);
+            this.tb18.TabIndex = 6;
+            // 
+            // tb21
+            // 
+            this.tb21.Location = new System.Drawing.Point(223, 210);
+            this.tb21.Name = "tb21";
+            this.tb21.Size = new System.Drawing.Size(253, 20);
+            this.tb21.TabIndex = 5;
+            // 
+            // tb20
+            // 
+            this.tb20.Location = new System.Drawing.Point(223, 184);
+            this.tb20.Name = "tb20";
+            this.tb20.Size = new System.Drawing.Size(253, 20);
+            this.tb20.TabIndex = 4;
+            // 
+            // tb17
+            // 
+            this.tb17.Location = new System.Drawing.Point(225, 91);
+            this.tb17.Name = "tb17";
+            this.tb17.Size = new System.Drawing.Size(253, 20);
+            this.tb17.TabIndex = 3;
+            // 
+            // tb16
+            // 
+            this.tb16.Location = new System.Drawing.Point(225, 65);
+            this.tb16.Name = "tb16";
+            this.tb16.Size = new System.Drawing.Size(253, 20);
+            this.tb16.TabIndex = 2;
+            // 
+            // tb15
+            // 
+            this.tb15.Location = new System.Drawing.Point(225, 39);
+            this.tb15.Name = "tb15";
+            this.tb15.Size = new System.Drawing.Size(253, 20);
+            this.tb15.TabIndex = 1;
+            // 
+            // tb14
+            // 
+            this.tb14.Location = new System.Drawing.Point(225, 13);
+            this.tb14.Name = "tb14";
+            this.tb14.Size = new System.Drawing.Size(253, 20);
+            this.tb14.TabIndex = 0;
             // 
             // VictimInfoPanel
             // 
@@ -669,24 +680,13 @@
             this.VictimButton.UseVisualStyleBackColor = false;
             this.VictimButton.Click += new System.EventHandler(this.VictimButton_Click_1);
             // 
-            // cb7
+            // slbAssist
             // 
-            this.cb7.FormattingEnabled = true;
-            this.cb7.Location = new System.Drawing.Point(226, 12);
-            this.cb7.Name = "cb7";
-            this.cb7.Size = new System.Drawing.Size(252, 21);
-            this.cb7.TabIndex = 18;
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.Crimson;
-            this.label3.Location = new System.Drawing.Point(139, 14);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(15, 20);
-            this.label3.TabIndex = 24;
-            this.label3.Text = "*";
+            this.slbAssist.FormattingEnabled = true;
+            this.slbAssist.Location = new System.Drawing.Point(224, 143);
+            this.slbAssist.Name = "slbAssist";
+            this.slbAssist.Size = new System.Drawing.Size(252, 34);
+            this.slbAssist.TabIndex = 24;
             // 
             // CrimeSheet
             // 
@@ -706,10 +706,10 @@
             this.splitContainer1.Panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).EndInit();
             this.splitContainer1.ResumeLayout(false);
-            this.InvestigationPanel.ResumeLayout(false);
-            this.InvestigationPanel.PerformLayout();
             this.CrimeInfoPanel.ResumeLayout(false);
             this.CrimeInfoPanel.PerformLayout();
+            this.InvestigationPanel.ResumeLayout(false);
+            this.InvestigationPanel.PerformLayout();
             this.VictimInfoPanel.ResumeLayout(false);
             this.VictimInfoPanel.PerformLayout();
             this.ResumeLayout(false);
@@ -773,9 +773,9 @@
         private System.Windows.Forms.Button VictimInfoEnterButton;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.DateTimePicker dtpCrime;
-        private System.Windows.Forms.CheckedListBox slbAssist;
         private System.Windows.Forms.ComboBox cb7;
         private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.CheckedListBox slbAssist;
 
     }
 }
