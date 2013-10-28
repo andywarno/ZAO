@@ -33,6 +33,36 @@ namespace SeniorDesign
         {
             ShowPanel(0);
             LoadDetectiveAssists();
+            LoadCrimeTypes();
+        }
+        private void LoadCrimeTypes()
+        {
+            var dataSource = new List<Language>();
+            dataSource.Add(new Language() { Name = "None", Value = "none" });
+            dataSource.Add(new Language() {Name = "Arson", Value = "Arson" });
+            dataSource.Add(new Language() { Name = "Auto Theft", Value = "Auto Theft" });
+            dataSource.Add(new Language() { Name = "B&E", Value = "BE" });
+            dataSource.Add(new Language() { Name = "Counterfeiting", Value = "Counterfeiting" });
+            dataSource.Add(new Language() { Name = "CSC Adult", Value = "Csc Adult" });
+            dataSource.Add(new Language() { Name = "CSC Child", Value = "Csc Child" });
+            dataSource.Add(new Language() { Name = "Drug Crimes", Value = "Drug Crimes" });
+            dataSource.Add(new Language() { Name = "Embezzlement", Value = "Embezzlement" });
+            dataSource.Add(new Language() { Name = "Felony Assault", Value = "Felony Assault" });
+            dataSource.Add(new Language() { Name = "Fraud", Value = "Fraud" });
+            dataSource.Add(new Language() { Name = "Home Invasion", Value = "Home Invasion" });
+            dataSource.Add(new Language() { Name = "Larceny from Auto", Value = "Larceny from Auto" });
+            dataSource.Add(new Language() { Name = "Metal/Scrap Theft", Value = "MetalScrap Theft" });
+            dataSource.Add(new Language() { Name = "Missing Person", Value = "Missing Person" });
+            dataSource.Add(new Language() { Name = "OAA", Value = "OAA" });
+            dataSource.Add(new Language() { Name = "Robbery", Value = "Robbery" });
+            dataSource.Add(new Language() { Name = "Shots Fired", Value = "Shots Fired" });
+            //Setup data binding
+            this.cb7.DataSource = dataSource;
+            this.cb7.DisplayMember = "Name";
+            this.cb7.ValueMember = "Value";
+
+            // make it readonly
+            this.cb7.DropDownStyle = ComboBoxStyle.DropDownList;
         }
         private void LoadDetectiveAssists()
         {
@@ -87,57 +117,67 @@ namespace SeniorDesign
 
         private void Submit(object sender, EventArgs e)
         {
-            if (tb18.Text != "")
+            string crimeType = cb7.SelectedValue.ToString();
+            if (tb18.Text != "" && crimeType !="none")
             {
                 int count = 1;
                 string insert = "INSERT INTO reports VALUES(";
                 insert += "'" + dtpCrime.Value.ToString("yyyy-MM-dd") + "'";
 
+
                 bool[] ba = new bool[] {true, true, true, false, true, false, true, true, false, 
                     false, true, true, true, true, false, false, true, true, true, true, true, true, true };
 
-                TextBox[] tb = new TextBox[] {tb02, tb04, tb05, tb7, tb8, tb9, tb10, tb11,
+                TextBox[] tb = new TextBox[] {tb02, tb04, tb05, null,tb8, tb9, tb10, tb11,
                                                 tb12, tb13, tb14, tb15, tb16, tb17, tb18, tb20,tb21, tb22};
 
                 foreach (TextBox t in tb)
                 {
                     //add placeholders for detass
-                    string test = t.Name;
                     insert += ",";
-                    if (count == 15)
+                    if (t != null)
                     {
-                        insert += t.Text;
-                        int c = 0;
-                        foreach (object o in slbAssist.CheckedItems)
+                        string test = t.Name;
+                        if (count == 15)
                         {
-                            if (c > 0)
-                                insert += ",";
-                            insert += "'" + o.ToString() + "'";
-                            c++;
+                            insert += t.Text;
+                            int c = 0;
+                            foreach (object o in slbAssist.CheckedItems)
+                            {
+                                if (c > 0)
+                                    insert += ",";
+                                insert += "'" + o.ToString() + "'";
+                                c++;
+                            }
+                            while (c < 5)
+                            {
+                                insert += ",'null'";
+                                c++;
+                            }
                         }
-                        while (c < 5)
+                        else
                         {
-                            insert += ",'null'";
-                            c++;
+                            if (t.Text != "")
+                            {
+                                if (ba[count] == true)
+                                    insert += "'" + t.Text + "'";
+                                else
+                                    insert += t.Text;
+                            }
+                            else
+                            {
+                                if (ba[count] == true)
+                                    insert += "'null'";
+                                else
+                                    insert += "null";
+                            }
                         }
                     }
                     else
                     {
-                        if (t.Text != "")
-                        {
-                            if (ba[count] == true)
-                                insert += "'" + t.Text + "'";
-                            else
-                                insert += t.Text;
-                        }
-                        else
-                        {
-                            if (ba[count] == true)
-                                insert += "'null'";
-                            else
-                                insert += "null";
-                        }
+                        insert += "'" + crimeType + "'";
                     }
+
                     count++;
                 }
 

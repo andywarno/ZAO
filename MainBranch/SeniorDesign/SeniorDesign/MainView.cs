@@ -28,6 +28,7 @@ namespace SeniorDesign
 
         private void MainView_Load(object sender, EventArgs e)
         {
+
             unauthorized = false;
             if (CurrentUser._level != "Administrator")
             {
@@ -43,8 +44,39 @@ namespace SeniorDesign
 
             refreshDate();
             fillExtraFields();
+            addCrimeTypes();
         }
+        private void addCrimeTypes()
+        {
+            //build a list of values
+            var dataSource = new List<Language>();
+            dataSource.Add(new Language() { Name = "[None]", Value = "none" });
+            dataSource.Add(new Language() {Name = "Arson", Value = "Arson" });
+            dataSource.Add(new Language() { Name = "Auto Theft", Value = "Auto Theft" });
+            dataSource.Add(new Language() { Name = "B&E", Value = "BE" });
+            dataSource.Add(new Language() { Name = "Counterfeiting", Value = "Counterfeiting" });
+            dataSource.Add(new Language() { Name = "CSC Adult", Value = "Csc Adult" });
+            dataSource.Add(new Language() { Name = "CSC Child", Value = "Csc Child" });
+            dataSource.Add(new Language() { Name = "Drug Crimes", Value = "Drug Crimes" });
+            dataSource.Add(new Language() { Name = "Embezzlement", Value = "Embezzlement" });
+            dataSource.Add(new Language() { Name = "Felony Assault", Value = "Felony Assault" });
+            dataSource.Add(new Language() { Name = "Fraud", Value = "Fraud" });
+            dataSource.Add(new Language() { Name = "Home Invasion", Value = "Home Invasion" });
+            dataSource.Add(new Language() { Name = "Larceny from Auto", Value = "Larceny from Auto" });
+            dataSource.Add(new Language() { Name = "Metal/Scrap Theft", Value = "MetalScrap Theft" });
+            dataSource.Add(new Language() { Name = "Missing Person", Value = "Missing Person" });
+            dataSource.Add(new Language() { Name = "OAA", Value = "OAA" });
+            dataSource.Add(new Language() { Name = "Robbery", Value = "Robbery" });
+            dataSource.Add(new Language() { Name = "Shots Fired", Value = "Shots Fired" });
+            //Setup data binding
+            this.cmbCrimeType.DataSource = dataSource;
+            this.cmbCrimeType.DisplayMember = "Name";
+            this.cmbCrimeType.ValueMember = "Value";
 
+            // make it readonly
+            this.cmbCrimeType.DropDownStyle = ComboBoxStyle.DropDownList;
+
+        }
         private void refreshDate()
         {
             start = dtpStart.Value.ToString("yyyy-MM-dd");
@@ -125,7 +157,14 @@ namespace SeniorDesign
                 query += "," + itemChecked.ToString(); 
             }
             refreshDate();//get new values selected
-            query += " FROM reports WHERE Date >= '" + start + "' and Date <= '" + end + "';";
+            string crimeType = cmbCrimeType.SelectedValue.ToString();
+            query += " FROM reports WHERE Date >= '" + start + "' and Date <= '" + end;
+            //filter by crimeType
+            if (crimeType == "none")
+                query +=  "';";
+            else
+                query += "'" +  " and CrimeType='" + crimeType +  "';";
+
             fillDataGrid(query);
             query = "";
         }
@@ -309,6 +348,28 @@ namespace SeniorDesign
             return latLong;
         }
 
+        private void btnSearch_Click(object sender, EventArgs e)
+        {
+            Search();
 
+        }
+        private void Search()
+        {
+            string search = txtSearchBox.Text;
+            if (search != "")
+            {
+                query = "";
+                query = "SELECT Date, ComplaintNum, Name, Address, Zip, CrimeType, BusinessName,Remarks Status FROM reports WHERE" +
+                " Name LIKE '%" + search + "%' OR" +
+                " Address LIKE '%" + search + "%' OR" +
+                " BusinessName LIKE '%" + search + "%' OR" +
+                " Remarks LIKE '%" + search + "%';";
+            }
+            else
+                query = "SELECT Date, ComplaintNum, Name, Address, Zip, CrimeType, Status FROM reports WHERE Date >= '" + start + "' and Date <= '" + end + "';";
+
+            fillDataGrid(query);
+        }
+        
     }
 }

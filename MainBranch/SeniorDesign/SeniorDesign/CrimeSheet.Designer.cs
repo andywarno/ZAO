@@ -33,11 +33,8 @@
             this.BHPDLogo = new System.Windows.Forms.PictureBox();
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
             this.SearchButton = new System.Windows.Forms.Button();
-            this.ReviewButton = new System.Windows.Forms.Button();
-            this.InvestigationButton = new System.Windows.Forms.Button();
-            this.CrimeButton = new System.Windows.Forms.Button();
-            this.VictimButton = new System.Windows.Forms.Button();
             this.InvestigationPanel = new System.Windows.Forms.Panel();
+            this.slbAssist = new System.Windows.Forms.CheckedListBox();
             this.label10 = new System.Windows.Forms.Label();
             this.InvestigationPanelEnterButton = new System.Windows.Forms.Button();
             this.RemarksLbl = new System.Windows.Forms.Label();
@@ -57,7 +54,6 @@
             this.tb16 = new System.Windows.Forms.TextBox();
             this.tb15 = new System.Windows.Forms.TextBox();
             this.tb14 = new System.Windows.Forms.TextBox();
-            this.VictimInfoPanel = new System.Windows.Forms.Panel();
             this.CrimeInfoPanel = new System.Windows.Forms.Panel();
             this.label5 = new System.Windows.Forms.Label();
             this.CrimeInfoEnterButton = new System.Windows.Forms.Button();
@@ -73,7 +69,8 @@
             this.tb11 = new System.Windows.Forms.TextBox();
             this.tb9 = new System.Windows.Forms.TextBox();
             this.tb8 = new System.Windows.Forms.TextBox();
-            this.tb7 = new System.Windows.Forms.TextBox();
+            this.VictimInfoPanel = new System.Windows.Forms.Panel();
+            this.dtpCrime = new System.Windows.Forms.DateTimePicker();
             this.label8 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.tb02 = new System.Windows.Forms.TextBox();
@@ -83,16 +80,19 @@
             this.VictimInfoEnterButton = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.dtpCrime = new System.Windows.Forms.DateTimePicker();
-            this.slbAssist = new System.Windows.Forms.CheckedListBox();
+            this.ReviewButton = new System.Windows.Forms.Button();
+            this.InvestigationButton = new System.Windows.Forms.Button();
+            this.CrimeButton = new System.Windows.Forms.Button();
+            this.VictimButton = new System.Windows.Forms.Button();
+            this.cb7 = new System.Windows.Forms.ComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.BHPDLogo)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
             this.splitContainer1.SuspendLayout();
             this.InvestigationPanel.SuspendLayout();
-            this.VictimInfoPanel.SuspendLayout();
             this.CrimeInfoPanel.SuspendLayout();
+            this.VictimInfoPanel.SuspendLayout();
             this.SuspendLayout();
             // 
             // CrimeSheetTitle
@@ -127,8 +127,8 @@
             // 
             // splitContainer1.Panel2
             // 
-            this.splitContainer1.Panel2.Controls.Add(this.InvestigationPanel);
             this.splitContainer1.Panel2.Controls.Add(this.CrimeInfoPanel);
+            this.splitContainer1.Panel2.Controls.Add(this.InvestigationPanel);
             this.splitContainer1.Panel2.Controls.Add(this.VictimInfoPanel);
             this.splitContainer1.Panel2.Controls.Add(this.ReviewButton);
             this.splitContainer1.Panel2.Controls.Add(this.InvestigationButton);
@@ -156,61 +156,6 @@
             this.SearchButton.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.SearchButton.UseVisualStyleBackColor = false;
             // 
-            // ReviewButton
-            // 
-            this.ReviewButton.BackColor = System.Drawing.Color.Gray;
-            this.ReviewButton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.ReviewButton.Font = new System.Drawing.Font("Arial Narrow", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ReviewButton.ForeColor = System.Drawing.Color.White;
-            this.ReviewButton.Location = new System.Drawing.Point(373, 18);
-            this.ReviewButton.Name = "ReviewButton";
-            this.ReviewButton.Size = new System.Drawing.Size(118, 23);
-            this.ReviewButton.TabIndex = 10;
-            this.ReviewButton.Text = "REVIEW";
-            this.ReviewButton.UseVisualStyleBackColor = false;
-            // 
-            // InvestigationButton
-            // 
-            this.InvestigationButton.BackColor = System.Drawing.Color.Gray;
-            this.InvestigationButton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.InvestigationButton.Font = new System.Drawing.Font("Arial Narrow", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.InvestigationButton.ForeColor = System.Drawing.Color.White;
-            this.InvestigationButton.Location = new System.Drawing.Point(266, 18);
-            this.InvestigationButton.Name = "InvestigationButton";
-            this.InvestigationButton.Size = new System.Drawing.Size(101, 23);
-            this.InvestigationButton.TabIndex = 9;
-            this.InvestigationButton.Text = "INVESTIGATION";
-            this.InvestigationButton.UseVisualStyleBackColor = false;
-            this.InvestigationButton.Click += new System.EventHandler(this.InvestigationButton_Click);
-            // 
-            // CrimeButton
-            // 
-            this.CrimeButton.BackColor = System.Drawing.Color.Gray;
-            this.CrimeButton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.CrimeButton.Font = new System.Drawing.Font("Arial Narrow", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CrimeButton.ForeColor = System.Drawing.Color.White;
-            this.CrimeButton.Location = new System.Drawing.Point(144, 18);
-            this.CrimeButton.Name = "CrimeButton";
-            this.CrimeButton.Size = new System.Drawing.Size(116, 23);
-            this.CrimeButton.TabIndex = 8;
-            this.CrimeButton.Text = "CRIME INFORMATION";
-            this.CrimeButton.UseVisualStyleBackColor = false;
-            this.CrimeButton.Click += new System.EventHandler(this.CrimeButton_Click);
-            // 
-            // VictimButton
-            // 
-            this.VictimButton.BackColor = System.Drawing.Color.Black;
-            this.VictimButton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.VictimButton.Font = new System.Drawing.Font("Arial Narrow", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.VictimButton.ForeColor = System.Drawing.Color.White;
-            this.VictimButton.Location = new System.Drawing.Point(24, 18);
-            this.VictimButton.Name = "VictimButton";
-            this.VictimButton.Size = new System.Drawing.Size(114, 23);
-            this.VictimButton.TabIndex = 7;
-            this.VictimButton.Text = "VICTIM INFORMATION";
-            this.VictimButton.UseVisualStyleBackColor = false;
-            this.VictimButton.Click += new System.EventHandler(this.VictimButton_Click_1);
-            // 
             // InvestigationPanel
             // 
             this.InvestigationPanel.Controls.Add(this.slbAssist);
@@ -237,6 +182,14 @@
             this.InvestigationPanel.Name = "InvestigationPanel";
             this.InvestigationPanel.Size = new System.Drawing.Size(504, 326);
             this.InvestigationPanel.TabIndex = 17;
+            // 
+            // slbAssist
+            // 
+            this.slbAssist.FormattingEnabled = true;
+            this.slbAssist.Location = new System.Drawing.Point(224, 143);
+            this.slbAssist.Name = "slbAssist";
+            this.slbAssist.Size = new System.Drawing.Size(252, 19);
+            this.slbAssist.TabIndex = 24;
             // 
             // label10
             // 
@@ -407,25 +360,9 @@
             this.tb14.Size = new System.Drawing.Size(253, 20);
             this.tb14.TabIndex = 0;
             // 
-            // VictimInfoPanel
-            // 
-            this.VictimInfoPanel.Controls.Add(this.dtpCrime);
-            this.VictimInfoPanel.Controls.Add(this.label8);
-            this.VictimInfoPanel.Controls.Add(this.label7);
-            this.VictimInfoPanel.Controls.Add(this.tb02);
-            this.VictimInfoPanel.Controls.Add(this.tb04);
-            this.VictimInfoPanel.Controls.Add(this.label4);
-            this.VictimInfoPanel.Controls.Add(this.tb05);
-            this.VictimInfoPanel.Controls.Add(this.VictimInfoEnterButton);
-            this.VictimInfoPanel.Controls.Add(this.label1);
-            this.VictimInfoPanel.Controls.Add(this.label2);
-            this.VictimInfoPanel.Location = new System.Drawing.Point(24, 45);
-            this.VictimInfoPanel.Name = "VictimInfoPanel";
-            this.VictimInfoPanel.Size = new System.Drawing.Size(504, 326);
-            this.VictimInfoPanel.TabIndex = 20;
-            // 
             // CrimeInfoPanel
             // 
+            this.CrimeInfoPanel.Controls.Add(this.cb7);
             this.CrimeInfoPanel.Controls.Add(this.label5);
             this.CrimeInfoPanel.Controls.Add(this.CrimeInfoEnterButton);
             this.CrimeInfoPanel.Controls.Add(this.PropRecoveredLbl);
@@ -440,7 +377,6 @@
             this.CrimeInfoPanel.Controls.Add(this.tb11);
             this.CrimeInfoPanel.Controls.Add(this.tb9);
             this.CrimeInfoPanel.Controls.Add(this.tb8);
-            this.CrimeInfoPanel.Controls.Add(this.tb7);
             this.CrimeInfoPanel.Location = new System.Drawing.Point(24, 45);
             this.CrimeInfoPanel.Name = "CrimeInfoPanel";
             this.CrimeInfoPanel.Size = new System.Drawing.Size(504, 326);
@@ -569,12 +505,29 @@
             this.tb8.Size = new System.Drawing.Size(252, 20);
             this.tb8.TabIndex = 1;
             // 
-            // tb7
+            // VictimInfoPanel
             // 
-            this.tb7.Location = new System.Drawing.Point(225, 13);
-            this.tb7.Name = "tb7";
-            this.tb7.Size = new System.Drawing.Size(252, 20);
-            this.tb7.TabIndex = 0;
+            this.VictimInfoPanel.Controls.Add(this.dtpCrime);
+            this.VictimInfoPanel.Controls.Add(this.label8);
+            this.VictimInfoPanel.Controls.Add(this.label7);
+            this.VictimInfoPanel.Controls.Add(this.tb02);
+            this.VictimInfoPanel.Controls.Add(this.tb04);
+            this.VictimInfoPanel.Controls.Add(this.label4);
+            this.VictimInfoPanel.Controls.Add(this.tb05);
+            this.VictimInfoPanel.Controls.Add(this.VictimInfoEnterButton);
+            this.VictimInfoPanel.Controls.Add(this.label1);
+            this.VictimInfoPanel.Controls.Add(this.label2);
+            this.VictimInfoPanel.Location = new System.Drawing.Point(24, 45);
+            this.VictimInfoPanel.Name = "VictimInfoPanel";
+            this.VictimInfoPanel.Size = new System.Drawing.Size(504, 326);
+            this.VictimInfoPanel.TabIndex = 20;
+            // 
+            // dtpCrime
+            // 
+            this.dtpCrime.Location = new System.Drawing.Point(226, 13);
+            this.dtpCrime.Name = "dtpCrime";
+            this.dtpCrime.Size = new System.Drawing.Size(231, 20);
+            this.dtpCrime.TabIndex = 23;
             // 
             // label8
             // 
@@ -659,20 +612,68 @@
             this.label2.TabIndex = 4;
             this.label2.Text = "VICTIM\'S NAME:";
             // 
-            // dtpCrime
+            // ReviewButton
             // 
-            this.dtpCrime.Location = new System.Drawing.Point(226, 13);
-            this.dtpCrime.Name = "dtpCrime";
-            this.dtpCrime.Size = new System.Drawing.Size(231, 20);
-            this.dtpCrime.TabIndex = 23;
+            this.ReviewButton.BackColor = System.Drawing.Color.Gray;
+            this.ReviewButton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.ReviewButton.Font = new System.Drawing.Font("Arial Narrow", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ReviewButton.ForeColor = System.Drawing.Color.White;
+            this.ReviewButton.Location = new System.Drawing.Point(373, 18);
+            this.ReviewButton.Name = "ReviewButton";
+            this.ReviewButton.Size = new System.Drawing.Size(118, 23);
+            this.ReviewButton.TabIndex = 10;
+            this.ReviewButton.Text = "REVIEW";
+            this.ReviewButton.UseVisualStyleBackColor = false;
             // 
-            // slbAssist
+            // InvestigationButton
             // 
-            this.slbAssist.FormattingEnabled = true;
-            this.slbAssist.Location = new System.Drawing.Point(224, 143);
-            this.slbAssist.Name = "slbAssist";
-            this.slbAssist.Size = new System.Drawing.Size(252, 19);
-            this.slbAssist.TabIndex = 24;
+            this.InvestigationButton.BackColor = System.Drawing.Color.Gray;
+            this.InvestigationButton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.InvestigationButton.Font = new System.Drawing.Font("Arial Narrow", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.InvestigationButton.ForeColor = System.Drawing.Color.White;
+            this.InvestigationButton.Location = new System.Drawing.Point(266, 18);
+            this.InvestigationButton.Name = "InvestigationButton";
+            this.InvestigationButton.Size = new System.Drawing.Size(101, 23);
+            this.InvestigationButton.TabIndex = 9;
+            this.InvestigationButton.Text = "INVESTIGATION";
+            this.InvestigationButton.UseVisualStyleBackColor = false;
+            this.InvestigationButton.Click += new System.EventHandler(this.InvestigationButton_Click);
+            // 
+            // CrimeButton
+            // 
+            this.CrimeButton.BackColor = System.Drawing.Color.Gray;
+            this.CrimeButton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.CrimeButton.Font = new System.Drawing.Font("Arial Narrow", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CrimeButton.ForeColor = System.Drawing.Color.White;
+            this.CrimeButton.Location = new System.Drawing.Point(144, 18);
+            this.CrimeButton.Name = "CrimeButton";
+            this.CrimeButton.Size = new System.Drawing.Size(116, 23);
+            this.CrimeButton.TabIndex = 8;
+            this.CrimeButton.Text = "CRIME INFORMATION";
+            this.CrimeButton.UseVisualStyleBackColor = false;
+            this.CrimeButton.Click += new System.EventHandler(this.CrimeButton_Click);
+            // 
+            // VictimButton
+            // 
+            this.VictimButton.BackColor = System.Drawing.Color.Black;
+            this.VictimButton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.VictimButton.Font = new System.Drawing.Font("Arial Narrow", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.VictimButton.ForeColor = System.Drawing.Color.White;
+            this.VictimButton.Location = new System.Drawing.Point(24, 18);
+            this.VictimButton.Name = "VictimButton";
+            this.VictimButton.Size = new System.Drawing.Size(114, 23);
+            this.VictimButton.TabIndex = 7;
+            this.VictimButton.Text = "VICTIM INFORMATION";
+            this.VictimButton.UseVisualStyleBackColor = false;
+            this.VictimButton.Click += new System.EventHandler(this.VictimButton_Click_1);
+            // 
+            // cb7
+            // 
+            this.cb7.FormattingEnabled = true;
+            this.cb7.Location = new System.Drawing.Point(226, 12);
+            this.cb7.Name = "cb7";
+            this.cb7.Size = new System.Drawing.Size(252, 21);
+            this.cb7.TabIndex = 18;
             // 
             // CrimeSheet
             // 
@@ -694,10 +695,10 @@
             this.splitContainer1.ResumeLayout(false);
             this.InvestigationPanel.ResumeLayout(false);
             this.InvestigationPanel.PerformLayout();
-            this.VictimInfoPanel.ResumeLayout(false);
-            this.VictimInfoPanel.PerformLayout();
             this.CrimeInfoPanel.ResumeLayout(false);
             this.CrimeInfoPanel.PerformLayout();
+            this.VictimInfoPanel.ResumeLayout(false);
+            this.VictimInfoPanel.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -741,7 +742,6 @@
         private System.Windows.Forms.TextBox tb11;
         private System.Windows.Forms.TextBox tb9;
         private System.Windows.Forms.TextBox tb8;
-        private System.Windows.Forms.TextBox tb7;
         private System.Windows.Forms.Button ReviewButton;
         private System.Windows.Forms.Button InvestigationButton;
         private System.Windows.Forms.Button CrimeButton;
@@ -761,6 +761,7 @@
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.DateTimePicker dtpCrime;
         private System.Windows.Forms.CheckedListBox slbAssist;
+        private System.Windows.Forms.ComboBox cb7;
 
     }
 }
