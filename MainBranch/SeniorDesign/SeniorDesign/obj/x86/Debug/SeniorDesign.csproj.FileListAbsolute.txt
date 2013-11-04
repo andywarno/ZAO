@@ -32,3 +32,5 @@ C:\Users\obeezy\Desktop\CS 4900 Senior Design\ZAO\MainBranch\SeniorDesign\Senior
 C:\Users\obeezy\Desktop\CS 4900 Senior Design\ZAO\MainBranch\SeniorDesign\SeniorDesign\bin\Debug\SeniorDesign.pdb
 C:\Users\obeezy\Desktop\CS 4900 Senior Design\ZAO\MainBranch\SeniorDesign\SeniorDesign\bin\Debug\MySql.Data.dll
 C:\Users\obeezy\Desktop\CS 4900 Senior Design\ZAO\MainBranch\SeniorDesign\SeniorDesign\obj\x86\Debug\SeniorDesign.SelectionMenu.resources
+C:\Users\obeezy\Documents\ZAO\MainBranch\SeniorDesign\SeniorDesign\obj\x86\Debug\SeniorDesign.exe
+C:\Users\obeezy\Documents\ZAO\MainBranch\SeniorDesign\SeniorDesign\obj\x86\Debug\SeniorDesign.pdb
